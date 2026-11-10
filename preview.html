@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>图标工坊 · 像素 SVG 图库预览</title>
+<style>
+:root{
+  --bg:#141009; --panel:#1e1811; --panel2:#231b12;
+  --line:#6b5636; --line-dark:#241b10; --slot:#221a12;
+  --ink:#e8dcc0; --dim:#9a8a6a; --gold:#f0b23e;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"Courier New",ui-monospace,monospace; font-size:13px;
+  padding:24px 16px 60px;
+}
+#app{max-width:1080px;margin:0 auto}
+h1{font-size:20px;font-weight:bold;letter-spacing:2px;text-shadow:2px 2px 0 #000}
+h1 span{color:var(--gold)}
+.sub{color:var(--dim);margin:6px 0 20px}
+#toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+#toolbar button{
+  cursor:pointer;font-family:inherit;font-size:13px;color:var(--ink);
+  background:var(--panel2);border:none;padding:6px 12px;
+  box-shadow:0 0 0 2px var(--line),0 0 0 4px var(--line-dark);
+}
+#toolbar button:hover{box-shadow:0 0 0 2px var(--gold),0 0 0 4px var(--line-dark)}
+#toolbar .stat{color:var(--dim);margin-left:auto}
+#grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:14px;
+}
+.card{
+  cursor:pointer;background:var(--slot);padding:14px 8px 10px;text-align:center;
+  box-shadow:0 0 0 2px var(--line),0 0 0 4px var(--line-dark);
+  transition:transform .12s;
+}
+.card:hover,.card.sel{transform:translateY(-3px);
+  box-shadow:0 0 0 2px var(--rc,#fff),0 0 0 4px var(--line-dark)}
+.card img{image-rendering:pixelated;width:64px;height:64px;display:block;margin:0 auto 8px}
+.card .nm{font-size:13px}
+.card .rar{font-size:11px;color:var(--rc)}
+.rar-common{--rc:#c8c8c8}.rar-fine{--rc:#63d66e}.rar-rare{--rc:#5aa9e6}
+.rar-epic{--rc:#b874e8}.rar-legend{--rc:#f0a13a}
+/* 检视浮层 */
+#viewer{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;
+  align-items:center;justify-content:center;z-index:9}
+#viewer.open{display:flex}
+#viewer .box{
+  background:var(--panel);padding:20px;max-width:90vw;
+  box-shadow:0 0 0 2px var(--gold),0 0 0 4px var(--line-dark);
+}
+#viewer .stage{background:var(--slot);padding:18px;margin-bottom:14px;
+  box-shadow:inset 0 0 0 2px #17110a}
+#viewer .stage img{image-rendering:pixelated;display:block}
+#viewer h3{margin-bottom:4px}
+#viewer .meta{color:var(--dim);margin-bottom:12px}
+#viewer .btns{display:flex;gap:10px;flex-wrap:wrap}
+#viewer .btns a,#viewer .btns button{
+  text-decoration:none;color:var(--gold);background:#3a2c1a;border:none;cursor:pointer;
+  font-family:inherit;font-size:13px;padding:7px 14px;
+  box-shadow:0 0 0 2px var(--line-dark);
+}
+#viewer .btns a:hover,#viewer .btns button:hover{background:#4a3822}
+#err{display:none;background:#3a1c14;color:#ff9b8b;padding:14px;margin-bottom:16px;
+  box-shadow:0 0 0 2px #e8433f,0 0 0 4px var(--line-dark)}
+#err code{color:#ffd0c8}
+</style>
+</head>
+<body>
+<div id="app">
+  <h1>图标工坊 <span>ICON STUDIO</span></h1>
+  <p class="sub">由 LLM 生成 · 16×16 像素风 SVG · 点按卡片检视 / 切换尺寸 / 打开 PNG</p>
+  <div id="err"></div>
+  <div id="toolbar">
+    <button id="bg-toggle">背景: 深色</button>
+    <button id="size-toggle">尺寸: 64px</button>
+    <span class="stat" id="stat"></span>
+  </div>
+  <div id="grid"></div>
+</div>
+
+<div id="viewer"><div class="box">
+  <div class="stage" id="v-stage"></div>
+  <h3 id="v-name"></h3>
+  <div class="meta" id="v-meta"></div>
+  <div class="btns">
+    <button data-z="64">64px</button><button data-z="128">128px</button>
+    <button data-z="256">256px</button>
+    <a id="v-svg" target="_blank">打开 SVG</a>
+    <a id="v-png" target="_blank">打开 PNG</a>
+    <button id="v-close">关闭</button>
+  </div>
+</div></div>
+
+<script>
+/* ---------- 数据加载：优先 manifest.json，缺失时降级 ---------- */
+async function loadManifest(){
+  for (const p of ["icons/manifest.json","manifest.json"]){
+    try{
+      const r = await fetch(p);
+      if (r.ok) return await r.json();
+    }catch(e){}
+  }
+  return null;
+}
+/* 降级：尝试常见示例文件名 */
+async function fallbackList(){
+  const names = ["potion_healing","potion_mana","sword_iron","shield_mercenary",
+    "coin_gold","key_brass","scroll_ancient","gem_emerald","meat_roast","ring_of_embers"];
+  const icons = [];
+  for (const n of names){
+    try{
+      const r = await fetch(`icons/${n}.svg`);
+      if (!r.ok) continue;
+      const text = await r.text();
+      icons.push({
+        id:n, name:text.match(/data-name="([^"]*)"/)?.[1]||n,
+        rarity:text.match(/data-rarity="([^"]*)"/)?.[1]||"common",
+        svg:`icons/${n}.svg`, png:null,
+      });
+    }catch(e){}
+  }
+  return icons.length ? {icons} : null;
+}
+
+const grid = document.getElementById("grid");
+const stat = document.getElementById("stat");
+let bgMode = 0, cardSize = 64;
+const BGS = ["var(--slot)",
+  "repeating-conic-gradient(#2a2118 0 25%, #1c1610 0 50%) 0 0/16px 16px", "#f2f2f2"];
+const BGN = ["深色","棋盘","浅色"];
+
+function render(icons){
+  stat.textContent = `共 ${icons.length} 个图标`;
+  grid.innerHTML = "";
+  icons.forEach(it=>{
+    const d = document.createElement("div");
+    d.className = `card rar-${it.rarity}`;
+    d.innerHTML =
+      `<img src="${it.svg}" alt="${it.name}">` +
+      `<div class="nm">${it.name}</div><div class="rar">${it.rarity}</div>`;
+    d.onclick = ()=> openViewer(it);
+    grid.appendChild(d);
+  });
+}
+
+/* ---------- 检视浮层 ---------- */
+const viewer = document.getElementById("viewer");
+let cur = null, zoom = 64;
+function openViewer(it){
+  cur = it;
+  const st = document.getElementById("v-stage");
+  st.innerHTML = `<img src="${it.svg}" style="width:${zoom}px;height:${zoom}px">`;
+  document.getElementById("v-name").textContent = it.name;
+  document.getElementById("v-meta").textContent =
+    `${it.id} · 稀有度 ${it.rarity} · 源文件 ${it.svg}`;
+  document.getElementById("v-svg").href = it.svg;
+  const png = it.png && it.png[String(zoom)];
+  document.getElementById("v-png").style.display = png ? "" : "none";
+  if (png) document.getElementById("v-png").href = png;
+  viewer.classList.add("open");
+}
+viewer.onclick = e=>{ if(e.target===viewer) viewer.classList.remove("open"); };
+document.getElementById("v-close").onclick = ()=> viewer.classList.remove("open");
+document.querySelectorAll("#viewer .btns button[data-z]").forEach(b=>{
+  b.onclick = ()=>{
+    zoom = +b.dataset.z;
+    document.getElementById("v-stage").innerHTML =
+      `<img src="${cur.svg}" style="width:${zoom}px;height:${zoom}px">`;
+    const png = cur.png && cur.png[String(zoom)];
+    document.getElementById("v-png").style.display = png ? "" : "none";
+    if (png) document.getElementById("v-png").href = png;
+  };
+});
+
+/* ---------- 工具栏 ---------- */
+document.getElementById("bg-toggle").onclick = e=>{
+  bgMode = (bgMode+1)%BGS.length;
+  e.target.textContent = `背景: ${BGN[bgMode]}`;
+  document.querySelectorAll(".card").forEach(c=>c.style.background=BGS[bgMode]);
+  document.getElementById("v-stage").style.background=BGS[bgMode];
+};
+document.getElementById("size-toggle").onclick = e=>{
+  cardSize = cardSize>=96 ? 48 : cardSize*2;
+  e.target.textContent = `尺寸: ${cardSize}px`;
+  document.querySelectorAll(".card").forEach(c=>{
+    const img=c.querySelector("img");
+    img.style.width=img.style.height=cardSize+"px";
+  });
+};
+
+/* ---------- 启动 ---------- */
+(async ()=>{
+  const data = (await loadManifest()) || (await fallbackList());
+  if (!data){
+    const err = document.getElementById("err");
+    err.style.display = "block";
+    err.innerHTML = "未找到 <code>icons/manifest.json</code>，也未能在 <code>icons/</code> 下发现 SVG。" +
+      "请先运行 <code>python scripts/svg2png.py</code>（生成 manifest），或将 SVG 放入 <code>icons/</code> 目录。" +
+      "注意：直接双击打开 HTML 时浏览器可能阻止 fetch，请用 <code>npx serve .</code> 启动本地服务。";
+    return;
+  }
+  render(data.icons);
+})();
+</script>
+</body>
+</html>
