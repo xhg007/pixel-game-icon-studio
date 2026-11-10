@@ -1,0 +1,1134 @@
+{
+  "generated_at": "2026-11-10T09:36:20+00:00",
+  "src_dir": "icons",
+  "out_dir": "png",
+  "sizes": [
+    32,
+    64,
+    128
+  ],
+  "icons": [
+    {
+      "id": "amulet_ward",
+      "name": "守护护符",
+      "rarity": "rare",
+      "svg": "icons/amulet_ward.svg",
+      "png": {
+        "32": "png/32/amulet_ward.png",
+        "64": "png/64/amulet_ward.png",
+        "128": "png/128/amulet_ward.png"
+      }
+    },
+    {
+      "id": "apple_fresh",
+      "name": "苹果",
+      "rarity": "common",
+      "svg": "icons/apple_fresh.svg",
+      "png": {
+        "32": "png/32/apple_fresh.png",
+        "64": "png/64/apple_fresh.png",
+        "128": "png/128/apple_fresh.png"
+      }
+    },
+    {
+      "id": "armor_leather",
+      "name": "皮甲",
+      "rarity": "common",
+      "svg": "icons/armor_leather.svg",
+      "png": {
+        "32": "png/32/armor_leather.png",
+        "64": "png/64/armor_leather.png",
+        "128": "png/128/armor_leather.png"
+      }
+    },
+    {
+      "id": "arrow_fire",
+      "name": "火箭",
+      "rarity": "fine",
+      "svg": "icons/arrow_fire.svg",
+      "png": {
+        "32": "png/32/arrow_fire.png",
+        "64": "png/64/arrow_fire.png",
+        "128": "png/128/arrow_fire.png"
+      }
+    },
+    {
+      "id": "axe_battle",
+      "name": "战斧",
+      "rarity": "fine",
+      "svg": "icons/axe_battle.svg",
+      "png": {
+        "32": "png/32/axe_battle.png",
+        "64": "png/64/axe_battle.png",
+        "128": "png/128/axe_battle.png"
+      }
+    },
+    {
+      "id": "bomb_round",
+      "name": "圆形炸弹",
+      "rarity": "common",
+      "svg": "icons/bomb_round.svg",
+      "png": {
+        "32": "png/32/bomb_round.png",
+        "64": "png/64/bomb_round.png",
+        "128": "png/128/bomb_round.png"
+      }
+    },
+    {
+      "id": "boots_swift",
+      "name": "疾行之靴",
+      "rarity": "rare",
+      "svg": "icons/boots_swift.svg",
+      "png": {
+        "32": "png/32/boots_swift.png",
+        "64": "png/64/boots_swift.png",
+        "128": "png/128/boots_swift.png"
+      }
+    },
+    {
+      "id": "bow_elf",
+      "name": "精灵长弓",
+      "rarity": "rare",
+      "svg": "icons/bow_elf.svg",
+      "png": {
+        "32": "png/32/bow_elf.png",
+        "64": "png/64/bow_elf.png",
+        "128": "png/128/bow_elf.png"
+      }
+    },
+    {
+      "id": "bread_wheat",
+      "name": "小麦面包",
+      "rarity": "common",
+      "svg": "icons/bread_wheat.svg",
+      "png": {
+        "32": "png/32/bread_wheat.png",
+        "64": "png/64/bread_wheat.png",
+        "128": "png/128/bread_wheat.png"
+      }
+    },
+    {
+      "id": "cloth_linen",
+      "name": "亚麻布",
+      "rarity": "common",
+      "svg": "icons/cloth_linen.svg",
+      "png": {
+        "32": "png/32/cloth_linen.png",
+        "64": "png/64/cloth_linen.png",
+        "128": "png/128/cloth_linen.png"
+      }
+    },
+    {
+      "id": "coin_gold",
+      "name": "金币",
+      "rarity": "common",
+      "svg": "icons/coin_gold.svg",
+      "png": {
+        "32": "png/32/coin_gold.png",
+        "64": "png/64/coin_gold.png",
+        "128": "png/128/coin_gold.png"
+      }
+    },
+    {
+      "id": "coin_silver",
+      "name": "银币",
+      "rarity": "common",
+      "svg": "icons/coin_silver.svg",
+      "png": {
+        "32": "png/32/coin_silver.png",
+        "64": "png/64/coin_silver.png",
+        "128": "png/128/coin_silver.png"
+      }
+    },
+    {
+      "id": "crossbow_heavy",
+      "name": "重型弩",
+      "rarity": "fine",
+      "svg": "icons/crossbow_heavy.svg",
+      "png": {
+        "32": "png/32/crossbow_heavy.png",
+        "64": "png/64/crossbow_heavy.png",
+        "128": "png/128/crossbow_heavy.png"
+      }
+    },
+    {
+      "id": "crystal_mana",
+      "name": "魔力水晶",
+      "rarity": "rare",
+      "svg": "icons/crystal_mana.svg",
+      "png": {
+        "32": "png/32/crystal_mana.png",
+        "64": "png/64/crystal_mana.png",
+        "128": "png/128/crystal_mana.png"
+      }
+    },
+    {
+      "id": "dagger_shadow",
+      "name": "暗影匕首",
+      "rarity": "rare",
+      "svg": "icons/dagger_shadow.svg",
+      "png": {
+        "32": "png/32/dagger_shadow.png",
+        "64": "png/64/dagger_shadow.png",
+        "128": "png/128/dagger_shadow.png"
+      }
+    },
+    {
+      "id": "fish_grilled",
+      "name": "烤鱼",
+      "rarity": "fine",
+      "svg": "icons/fish_grilled.svg",
+      "png": {
+        "32": "png/32/fish_grilled.png",
+        "64": "png/64/fish_grilled.png",
+        "128": "png/128/fish_grilled.png"
+      }
+    },
+    {
+      "id": "gem_emerald",
+      "name": "绿宝石",
+      "rarity": "epic",
+      "svg": "icons/gem_emerald.svg",
+      "png": {
+        "32": "png/32/gem_emerald.png",
+        "64": "png/64/gem_emerald.png",
+        "128": "png/128/gem_emerald.png"
+      }
+    },
+    {
+      "id": "gem_ruby",
+      "name": "红宝石",
+      "rarity": "epic",
+      "svg": "icons/gem_ruby.svg",
+      "png": {
+        "32": "png/32/gem_ruby.png",
+        "64": "png/64/gem_ruby.png",
+        "128": "png/128/gem_ruby.png"
+      }
+    },
+    {
+      "id": "gem_sapphire",
+      "name": "蓝宝石",
+      "rarity": "epic",
+      "svg": "icons/gem_sapphire.svg",
+      "png": {
+        "32": "png/32/gem_sapphire.png",
+        "64": "png/64/gem_sapphire.png",
+        "128": "png/128/gem_sapphire.png"
+      }
+    },
+    {
+      "id": "hammer_war",
+      "name": "战锤",
+      "rarity": "rare",
+      "svg": "icons/hammer_war.svg",
+      "png": {
+        "32": "png/32/hammer_war.png",
+        "64": "png/64/hammer_war.png",
+        "128": "png/128/hammer_war.png"
+      }
+    },
+    {
+      "id": "helmet_knight",
+      "name": "骑士头盔",
+      "rarity": "fine",
+      "svg": "icons/helmet_knight.svg",
+      "png": {
+        "32": "png/32/helmet_knight.png",
+        "64": "png/64/helmet_knight.png",
+        "128": "png/128/helmet_knight.png"
+      }
+    },
+    {
+      "id": "key_brass",
+      "name": "黄铜钥匙",
+      "rarity": "fine",
+      "svg": "icons/key_brass.svg",
+      "png": {
+        "32": "png/32/key_brass.png",
+        "64": "png/64/key_brass.png",
+        "128": "png/128/key_brass.png"
+      }
+    },
+    {
+      "id": "key_rusty",
+      "name": "生锈钥匙",
+      "rarity": "common",
+      "svg": "icons/key_rusty.svg",
+      "png": {
+        "32": "png/32/key_rusty.png",
+        "64": "png/64/key_rusty.png",
+        "128": "png/128/key_rusty.png"
+      }
+    },
+    {
+      "id": "lantern_oil",
+      "name": "油灯",
+      "rarity": "fine",
+      "svg": "icons/lantern_oil.svg",
+      "png": {
+        "32": "png/32/lantern_oil.png",
+        "64": "png/64/lantern_oil.png",
+        "128": "png/128/lantern_oil.png"
+      }
+    },
+    {
+      "id": "leather_scrap",
+      "name": "皮革碎片",
+      "rarity": "common",
+      "svg": "icons/leather_scrap.svg",
+      "png": {
+        "32": "png/32/leather_scrap.png",
+        "64": "png/64/leather_scrap.png",
+        "128": "png/128/leather_scrap.png"
+      }
+    },
+    {
+      "id": "letter_sealed",
+      "name": "密封信",
+      "rarity": "common",
+      "svg": "icons/letter_sealed.svg",
+      "png": {
+        "32": "png/32/letter_sealed.png",
+        "64": "png/64/letter_sealed.png",
+        "128": "png/128/letter_sealed.png"
+      }
+    },
+    {
+      "id": "map_treasure",
+      "name": "藏宝图",
+      "rarity": "rare",
+      "svg": "icons/map_treasure.svg",
+      "png": {
+        "32": "png/32/map_treasure.png",
+        "64": "png/64/map_treasure.png",
+        "128": "png/128/map_treasure.png"
+      }
+    },
+    {
+      "id": "meat_roast",
+      "name": "烤肉",
+      "rarity": "common",
+      "svg": "icons/meat_roast.svg",
+      "png": {
+        "32": "png/32/meat_roast.png",
+        "64": "png/64/meat_roast.png",
+        "128": "png/128/meat_roast.png"
+      }
+    },
+    {
+      "id": "ore_gold",
+      "name": "金矿石",
+      "rarity": "fine",
+      "svg": "icons/ore_gold.svg",
+      "png": {
+        "32": "png/32/ore_gold.png",
+        "64": "png/64/ore_gold.png",
+        "128": "png/128/ore_gold.png"
+      }
+    },
+    {
+      "id": "ore_iron",
+      "name": "铁矿石",
+      "rarity": "common",
+      "svg": "icons/ore_iron.svg",
+      "png": {
+        "32": "png/32/ore_iron.png",
+        "64": "png/64/ore_iron.png",
+        "128": "png/128/ore_iron.png"
+      }
+    },
+    {
+      "id": "pickaxe_miner",
+      "name": "矿镐",
+      "rarity": "common",
+      "svg": "icons/pickaxe_miner.svg",
+      "png": {
+        "32": "png/32/pickaxe_miner.png",
+        "64": "png/64/pickaxe_miner.png",
+        "128": "png/128/pickaxe_miner.png"
+      }
+    },
+    {
+      "id": "potion_antidote",
+      "name": "解毒药剂",
+      "rarity": "fine",
+      "svg": "icons/potion_antidote.svg",
+      "png": {
+        "32": "png/32/potion_antidote.png",
+        "64": "png/64/potion_antidote.png",
+        "128": "png/128/potion_antidote.png"
+      }
+    },
+    {
+      "id": "potion_healing",
+      "name": "治疗药水",
+      "rarity": "common",
+      "svg": "icons/potion_healing.svg",
+      "png": {
+        "32": "png/32/potion_healing.png",
+        "64": "png/64/potion_healing.png",
+        "128": "png/128/potion_healing.png"
+      }
+    },
+    {
+      "id": "potion_invisibility",
+      "name": "隐身药水",
+      "rarity": "epic",
+      "svg": "icons/potion_invisibility.svg",
+      "png": {
+        "32": "png/32/potion_invisibility.png",
+        "64": "png/64/potion_invisibility.png",
+        "128": "png/128/potion_invisibility.png"
+      }
+    },
+    {
+      "id": "potion_mana",
+      "name": "法力药水",
+      "rarity": "rare",
+      "svg": "icons/potion_mana.svg",
+      "png": {
+        "32": "png/32/potion_mana.png",
+        "64": "png/64/potion_mana.png",
+        "128": "png/128/potion_mana.png"
+      }
+    },
+    {
+      "id": "potion_stamina",
+      "name": "体力药水",
+      "rarity": "fine",
+      "svg": "icons/potion_stamina.svg",
+      "png": {
+        "32": "png/32/potion_stamina.png",
+        "64": "png/64/potion_stamina.png",
+        "128": "png/128/potion_stamina.png"
+      }
+    },
+    {
+      "id": "potion_strength",
+      "name": "力量药剂",
+      "rarity": "rare",
+      "svg": "icons/potion_strength.svg",
+      "png": {
+        "32": "png/32/potion_strength.png",
+        "64": "png/64/potion_strength.png",
+        "128": "png/128/potion_strength.png"
+      }
+    },
+    {
+      "id": "ring_of_embers",
+      "name": "余烬之戒",
+      "rarity": "legend",
+      "svg": "icons/ring_of_embers.svg",
+      "png": {
+        "32": "png/32/ring_of_embers.png",
+        "64": "png/64/ring_of_embers.png",
+        "128": "png/128/ring_of_embers.png"
+      }
+    },
+    {
+      "id": "rope_sturdy",
+      "name": "结实的绳子",
+      "rarity": "common",
+      "svg": "icons/rope_sturdy.svg",
+      "png": {
+        "32": "png/32/rope_sturdy.png",
+        "64": "png/64/rope_sturdy.png",
+        "128": "png/128/rope_sturdy.png"
+      }
+    },
+    {
+      "id": "rune_stone",
+      "name": "符文石",
+      "rarity": "fine",
+      "svg": "icons/rune_stone.svg",
+      "png": {
+        "32": "png/32/rune_stone.png",
+        "64": "png/64/rune_stone.png",
+        "128": "png/128/rune_stone.png"
+      }
+    },
+    {
+      "id": "scroll_ancient",
+      "name": "古老卷轴",
+      "rarity": "rare",
+      "svg": "icons/scroll_ancient.svg",
+      "png": {
+        "32": "png/32/scroll_ancient.png",
+        "64": "png/64/scroll_ancient.png",
+        "128": "png/128/scroll_ancient.png"
+      }
+    },
+    {
+      "id": "shield_mercenary",
+      "name": "佣兵盾",
+      "rarity": "fine",
+      "svg": "icons/shield_mercenary.svg",
+      "png": {
+        "32": "png/32/shield_mercenary.png",
+        "64": "png/64/shield_mercenary.png",
+        "128": "png/128/shield_mercenary.png"
+      }
+    },
+    {
+      "id": "shield_tower",
+      "name": "塔盾",
+      "rarity": "rare",
+      "svg": "icons/shield_tower.svg",
+      "png": {
+        "32": "png/32/shield_tower.png",
+        "64": "png/64/shield_tower.png",
+        "128": "png/128/shield_tower.png"
+      }
+    },
+    {
+      "id": "spear_hunter",
+      "name": "猎手长矛",
+      "rarity": "fine",
+      "svg": "icons/spear_hunter.svg",
+      "png": {
+        "32": "png/32/spear_hunter.png",
+        "64": "png/64/spear_hunter.png",
+        "128": "png/128/spear_hunter.png"
+      }
+    },
+    {
+      "id": "sword_flame",
+      "name": "烈焰剑",
+      "rarity": "epic",
+      "svg": "icons/sword_flame.svg",
+      "png": {
+        "32": "png/32/sword_flame.png",
+        "64": "png/64/sword_flame.png",
+        "128": "png/128/sword_flame.png"
+      }
+    },
+    {
+      "id": "sword_iron",
+      "name": "铁剑",
+      "rarity": "common",
+      "svg": "icons/sword_iron.svg",
+      "png": {
+        "32": "png/32/sword_iron.png",
+        "64": "png/64/sword_iron.png",
+        "128": "png/128/sword_iron.png"
+      }
+    },
+    {
+      "id": "token_guild",
+      "name": "公会徽章",
+      "rarity": "rare",
+      "svg": "icons/token_guild.svg",
+      "png": {
+        "32": "png/32/token_guild.png",
+        "64": "png/64/token_guild.png",
+        "128": "png/128/token_guild.png"
+      }
+    },
+    {
+      "id": "tome_fire",
+      "name": "火焰法典",
+      "rarity": "rare",
+      "svg": "icons/tome_fire.svg",
+      "png": {
+        "32": "png/32/tome_fire.png",
+        "64": "png/64/tome_fire.png",
+        "128": "png/128/tome_fire.png"
+      }
+    },
+    {
+      "id": "torch_wood",
+      "name": "木火把",
+      "rarity": "common",
+      "svg": "icons/torch_wood.svg",
+      "png": {
+        "32": "png/32/torch_wood.png",
+        "64": "png/64/torch_wood.png",
+        "128": "png/128/torch_wood.png"
+      }
+    },
+    {
+      "id": "ui_add",
+      "name": "添加",
+      "rarity": "common",
+      "svg": "icons/ui_add.svg",
+      "png": {
+        "32": "png/32/ui_add.png",
+        "64": "png/64/ui_add.png",
+        "128": "png/128/ui_add.png"
+      }
+    },
+    {
+      "id": "ui_back",
+      "name": "返回",
+      "rarity": "common",
+      "svg": "icons/ui_back.svg",
+      "png": {
+        "32": "png/32/ui_back.png",
+        "64": "png/64/ui_back.png",
+        "128": "png/128/ui_back.png"
+      }
+    },
+    {
+      "id": "ui_bag",
+      "name": "背包",
+      "rarity": "common",
+      "svg": "icons/ui_bag.svg",
+      "png": {
+        "32": "png/32/ui_bag.png",
+        "64": "png/64/ui_bag.png",
+        "128": "png/128/ui_bag.png"
+      }
+    },
+    {
+      "id": "ui_calendar",
+      "name": "日历",
+      "rarity": "common",
+      "svg": "icons/ui_calendar.svg",
+      "png": {
+        "32": "png/32/ui_calendar.png",
+        "64": "png/64/ui_calendar.png",
+        "128": "png/128/ui_calendar.png"
+      }
+    },
+    {
+      "id": "ui_cart",
+      "name": "购物车",
+      "rarity": "common",
+      "svg": "icons/ui_cart.svg",
+      "png": {
+        "32": "png/32/ui_cart.png",
+        "64": "png/64/ui_cart.png",
+        "128": "png/128/ui_cart.png"
+      }
+    },
+    {
+      "id": "ui_chat",
+      "name": "聊天",
+      "rarity": "common",
+      "svg": "icons/ui_chat.svg",
+      "png": {
+        "32": "png/32/ui_chat.png",
+        "64": "png/64/ui_chat.png",
+        "128": "png/128/ui_chat.png"
+      }
+    },
+    {
+      "id": "ui_check",
+      "name": "选中",
+      "rarity": "common",
+      "svg": "icons/ui_check.svg",
+      "png": {
+        "32": "png/32/ui_check.png",
+        "64": "png/64/ui_check.png",
+        "128": "png/128/ui_check.png"
+      }
+    },
+    {
+      "id": "ui_clock",
+      "name": "时钟",
+      "rarity": "common",
+      "svg": "icons/ui_clock.svg",
+      "png": {
+        "32": "png/32/ui_clock.png",
+        "64": "png/64/ui_clock.png",
+        "128": "png/128/ui_clock.png"
+      }
+    },
+    {
+      "id": "ui_close",
+      "name": "关闭",
+      "rarity": "common",
+      "svg": "icons/ui_close.svg",
+      "png": {
+        "32": "png/32/ui_close.png",
+        "64": "png/64/ui_close.png",
+        "128": "png/128/ui_close.png"
+      }
+    },
+    {
+      "id": "ui_coin",
+      "name": "金币",
+      "rarity": "common",
+      "svg": "icons/ui_coin.svg",
+      "png": {
+        "32": "png/32/ui_coin.png",
+        "64": "png/64/ui_coin.png",
+        "128": "png/128/ui_coin.png"
+      }
+    },
+    {
+      "id": "ui_copy",
+      "name": "复制",
+      "rarity": "common",
+      "svg": "icons/ui_copy.svg",
+      "png": {
+        "32": "png/32/ui_copy.png",
+        "64": "png/64/ui_copy.png",
+        "128": "png/128/ui_copy.png"
+      }
+    },
+    {
+      "id": "ui_coupon",
+      "name": "优惠券",
+      "rarity": "common",
+      "svg": "icons/ui_coupon.svg",
+      "png": {
+        "32": "png/32/ui_coupon.png",
+        "64": "png/64/ui_coupon.png",
+        "128": "png/128/ui_coupon.png"
+      }
+    },
+    {
+      "id": "ui_download",
+      "name": "下载",
+      "rarity": "common",
+      "svg": "icons/ui_download.svg",
+      "png": {
+        "32": "png/32/ui_download.png",
+        "64": "png/64/ui_download.png",
+        "128": "png/128/ui_download.png"
+      }
+    },
+    {
+      "id": "ui_edit",
+      "name": "编辑",
+      "rarity": "common",
+      "svg": "icons/ui_edit.svg",
+      "png": {
+        "32": "png/32/ui_edit.png",
+        "64": "png/64/ui_edit.png",
+        "128": "png/128/ui_edit.png"
+      }
+    },
+    {
+      "id": "ui_error",
+      "name": "错误",
+      "rarity": "common",
+      "svg": "icons/ui_error.svg",
+      "png": {
+        "32": "png/32/ui_error.png",
+        "64": "png/64/ui_error.png",
+        "128": "png/128/ui_error.png"
+      }
+    },
+    {
+      "id": "ui_file",
+      "name": "文件",
+      "rarity": "common",
+      "svg": "icons/ui_file.svg",
+      "png": {
+        "32": "png/32/ui_file.png",
+        "64": "png/64/ui_file.png",
+        "128": "png/128/ui_file.png"
+      }
+    },
+    {
+      "id": "ui_filter",
+      "name": "筛选",
+      "rarity": "common",
+      "svg": "icons/ui_filter.svg",
+      "png": {
+        "32": "png/32/ui_filter.png",
+        "64": "png/64/ui_filter.png",
+        "128": "png/128/ui_filter.png"
+      }
+    },
+    {
+      "id": "ui_folder",
+      "name": "文件夹",
+      "rarity": "common",
+      "svg": "icons/ui_folder.svg",
+      "png": {
+        "32": "png/32/ui_folder.png",
+        "64": "png/64/ui_folder.png",
+        "128": "png/128/ui_folder.png"
+      }
+    },
+    {
+      "id": "ui_forward",
+      "name": "前进",
+      "rarity": "common",
+      "svg": "icons/ui_forward.svg",
+      "png": {
+        "32": "png/32/ui_forward.png",
+        "64": "png/64/ui_forward.png",
+        "128": "png/128/ui_forward.png"
+      }
+    },
+    {
+      "id": "ui_fullscreen",
+      "name": "全屏",
+      "rarity": "common",
+      "svg": "icons/ui_fullscreen.svg",
+      "png": {
+        "32": "png/32/ui_fullscreen.png",
+        "64": "png/64/ui_fullscreen.png",
+        "128": "png/128/ui_fullscreen.png"
+      }
+    },
+    {
+      "id": "ui_gift",
+      "name": "礼包",
+      "rarity": "common",
+      "svg": "icons/ui_gift.svg",
+      "png": {
+        "32": "png/32/ui_gift.png",
+        "64": "png/64/ui_gift.png",
+        "128": "png/128/ui_gift.png"
+      }
+    },
+    {
+      "id": "ui_help",
+      "name": "帮助",
+      "rarity": "common",
+      "svg": "icons/ui_help.svg",
+      "png": {
+        "32": "png/32/ui_help.png",
+        "64": "png/64/ui_help.png",
+        "128": "png/128/ui_help.png"
+      }
+    },
+    {
+      "id": "ui_home",
+      "name": "首页",
+      "rarity": "common",
+      "svg": "icons/ui_home.svg",
+      "png": {
+        "32": "png/32/ui_home.png",
+        "64": "png/64/ui_home.png",
+        "128": "png/128/ui_home.png"
+      }
+    },
+    {
+      "id": "ui_image",
+      "name": "图片",
+      "rarity": "common",
+      "svg": "icons/ui_image.svg",
+      "png": {
+        "32": "png/32/ui_image.png",
+        "64": "png/64/ui_image.png",
+        "128": "png/128/ui_image.png"
+      }
+    },
+    {
+      "id": "ui_info",
+      "name": "信息",
+      "rarity": "common",
+      "svg": "icons/ui_info.svg",
+      "png": {
+        "32": "png/32/ui_info.png",
+        "64": "png/64/ui_info.png",
+        "128": "png/128/ui_info.png"
+      }
+    },
+    {
+      "id": "ui_like",
+      "name": "点赞",
+      "rarity": "common",
+      "svg": "icons/ui_like.svg",
+      "png": {
+        "32": "png/32/ui_like.png",
+        "64": "png/64/ui_like.png",
+        "128": "png/128/ui_like.png"
+      }
+    },
+    {
+      "id": "ui_link",
+      "name": "链接",
+      "rarity": "common",
+      "svg": "icons/ui_link.svg",
+      "png": {
+        "32": "png/32/ui_link.png",
+        "64": "png/64/ui_link.png",
+        "128": "png/128/ui_link.png"
+      }
+    },
+    {
+      "id": "ui_loading",
+      "name": "加载中",
+      "rarity": "common",
+      "svg": "icons/ui_loading.svg",
+      "png": {
+        "32": "png/32/ui_loading.png",
+        "64": "png/64/ui_loading.png",
+        "128": "png/128/ui_loading.png"
+      }
+    },
+    {
+      "id": "ui_lock",
+      "name": "锁定",
+      "rarity": "common",
+      "svg": "icons/ui_lock.svg",
+      "png": {
+        "32": "png/32/ui_lock.png",
+        "64": "png/64/ui_lock.png",
+        "128": "png/128/ui_lock.png"
+      }
+    },
+    {
+      "id": "ui_menu",
+      "name": "菜单",
+      "rarity": "common",
+      "svg": "icons/ui_menu.svg",
+      "png": {
+        "32": "png/32/ui_menu.png",
+        "64": "png/64/ui_menu.png",
+        "128": "png/128/ui_menu.png"
+      }
+    },
+    {
+      "id": "ui_mute",
+      "name": "静音",
+      "rarity": "common",
+      "svg": "icons/ui_mute.svg",
+      "png": {
+        "32": "png/32/ui_mute.png",
+        "64": "png/64/ui_mute.png",
+        "128": "png/128/ui_mute.png"
+      }
+    },
+    {
+      "id": "ui_notification",
+      "name": "通知",
+      "rarity": "common",
+      "svg": "icons/ui_notification.svg",
+      "png": {
+        "32": "png/32/ui_notification.png",
+        "64": "png/64/ui_notification.png",
+        "128": "png/128/ui_notification.png"
+      }
+    },
+    {
+      "id": "ui_pause",
+      "name": "暂停",
+      "rarity": "common",
+      "svg": "icons/ui_pause.svg",
+      "png": {
+        "32": "png/32/ui_pause.png",
+        "64": "png/64/ui_pause.png",
+        "128": "png/128/ui_pause.png"
+      }
+    },
+    {
+      "id": "ui_play",
+      "name": "播放",
+      "rarity": "common",
+      "svg": "icons/ui_play.svg",
+      "png": {
+        "32": "png/32/ui_play.png",
+        "64": "png/64/ui_play.png",
+        "128": "png/128/ui_play.png"
+      }
+    },
+    {
+      "id": "ui_refresh",
+      "name": "刷新",
+      "rarity": "common",
+      "svg": "icons/ui_refresh.svg",
+      "png": {
+        "32": "png/32/ui_refresh.png",
+        "64": "png/64/ui_refresh.png",
+        "128": "png/128/ui_refresh.png"
+      }
+    },
+    {
+      "id": "ui_remove",
+      "name": "移除",
+      "rarity": "common",
+      "svg": "icons/ui_remove.svg",
+      "png": {
+        "32": "png/32/ui_remove.png",
+        "64": "png/64/ui_remove.png",
+        "128": "png/128/ui_remove.png"
+      }
+    },
+    {
+      "id": "ui_save",
+      "name": "保存",
+      "rarity": "common",
+      "svg": "icons/ui_save.svg",
+      "png": {
+        "32": "png/32/ui_save.png",
+        "64": "png/64/ui_save.png",
+        "128": "png/128/ui_save.png"
+      }
+    },
+    {
+      "id": "ui_search",
+      "name": "搜索",
+      "rarity": "common",
+      "svg": "icons/ui_search.svg",
+      "png": {
+        "32": "png/32/ui_search.png",
+        "64": "png/64/ui_search.png",
+        "128": "png/128/ui_search.png"
+      }
+    },
+    {
+      "id": "ui_settings",
+      "name": "设置",
+      "rarity": "common",
+      "svg": "icons/ui_settings.svg",
+      "png": {
+        "32": "png/32/ui_settings.png",
+        "64": "png/64/ui_settings.png",
+        "128": "png/128/ui_settings.png"
+      }
+    },
+    {
+      "id": "ui_share",
+      "name": "分享",
+      "rarity": "common",
+      "svg": "icons/ui_share.svg",
+      "png": {
+        "32": "png/32/ui_share.png",
+        "64": "png/64/ui_share.png",
+        "128": "png/128/ui_share.png"
+      }
+    },
+    {
+      "id": "ui_sort",
+      "name": "排序",
+      "rarity": "common",
+      "svg": "icons/ui_sort.svg",
+      "png": {
+        "32": "png/32/ui_sort.png",
+        "64": "png/64/ui_sort.png",
+        "128": "png/128/ui_sort.png"
+      }
+    },
+    {
+      "id": "ui_stop",
+      "name": "停止",
+      "rarity": "common",
+      "svg": "icons/ui_stop.svg",
+      "png": {
+        "32": "png/32/ui_stop.png",
+        "64": "png/64/ui_stop.png",
+        "128": "png/128/ui_stop.png"
+      }
+    },
+    {
+      "id": "ui_success",
+      "name": "成功",
+      "rarity": "common",
+      "svg": "icons/ui_success.svg",
+      "png": {
+        "32": "png/32/ui_success.png",
+        "64": "png/64/ui_success.png",
+        "128": "png/128/ui_success.png"
+      }
+    },
+    {
+      "id": "ui_trash",
+      "name": "删除",
+      "rarity": "common",
+      "svg": "icons/ui_trash.svg",
+      "png": {
+        "32": "png/32/ui_trash.png",
+        "64": "png/64/ui_trash.png",
+        "128": "png/128/ui_trash.png"
+      }
+    },
+    {
+      "id": "ui_unlock",
+      "name": "解锁",
+      "rarity": "common",
+      "svg": "icons/ui_unlock.svg",
+      "png": {
+        "32": "png/32/ui_unlock.png",
+        "64": "png/64/ui_unlock.png",
+        "128": "png/128/ui_unlock.png"
+      }
+    },
+    {
+      "id": "ui_upload",
+      "name": "上传",
+      "rarity": "common",
+      "svg": "icons/ui_upload.svg",
+      "png": {
+        "32": "png/32/ui_upload.png",
+        "64": "png/64/ui_upload.png",
+        "128": "png/128/ui_upload.png"
+      }
+    },
+    {
+      "id": "ui_user",
+      "name": "用户",
+      "rarity": "common",
+      "svg": "icons/ui_user.svg",
+      "png": {
+        "32": "png/32/ui_user.png",
+        "64": "png/64/ui_user.png",
+        "128": "png/128/ui_user.png"
+      }
+    },
+    {
+      "id": "ui_users",
+      "name": "用户组",
+      "rarity": "common",
+      "svg": "icons/ui_users.svg",
+      "png": {
+        "32": "png/32/ui_users.png",
+        "64": "png/64/ui_users.png",
+        "128": "png/128/ui_users.png"
+      }
+    },
+    {
+      "id": "ui_volume",
+      "name": "音量",
+      "rarity": "common",
+      "svg": "icons/ui_volume.svg",
+      "png": {
+        "32": "png/32/ui_volume.png",
+        "64": "png/64/ui_volume.png",
+        "128": "png/128/ui_volume.png"
+      }
+    },
+    {
+      "id": "ui_warning",
+      "name": "警告",
+      "rarity": "common",
+      "svg": "icons/ui_warning.svg",
+      "png": {
+        "32": "png/32/ui_warning.png",
+        "64": "png/64/ui_warning.png",
+        "128": "png/128/ui_warning.png"
+      }
+    },
+    {
+      "id": "wand_ember",
+      "name": "余烬法杖",
+      "rarity": "epic",
+      "svg": "icons/wand_ember.svg",
+      "png": {
+        "32": "png/32/wand_ember.png",
+        "64": "png/64/wand_ember.png",
+        "128": "png/128/wand_ember.png"
+      }
+    },
+    {
+      "id": "water_flask",
+      "name": "清水壶",
+      "rarity": "common",
+      "svg": "icons/water_flask.svg",
+      "png": {
+        "32": "png/32/water_flask.png",
+        "64": "png/64/water_flask.png",
+        "128": "png/128/water_flask.png"
+      }
+    },
+    {
+      "id": "wood_oak",
+      "name": "橡木",
+      "rarity": "common",
+      "svg": "icons/wood_oak.svg",
+      "png": {
+        "32": "png/32/wood_oak.png",
+        "64": "png/64/wood_oak.png",
+        "128": "png/128/wood_oak.png"
+      }
+    }
+  ]
+}

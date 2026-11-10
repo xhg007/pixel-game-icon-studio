@@ -16,6 +16,6 @@ wheels/
 
 # Generated icon artifacts
 /png/
-/icons/manifest.json
 /.reasonix/tasks/
 /.reasonix
+/icons_backup
