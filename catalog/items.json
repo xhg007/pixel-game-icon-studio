@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "kind": "items",
+  "title": "常用物品图标",
+  "description": "RPG / 生存 / 模拟经营类游戏的常用道具图标清单，按用途分类。",
+  "categories": [
+    {
+      "key": "potion",
+      "name": "药水与药剂",
+      "description": "瓶身剪影一眼可辨，液体颜色对应元素；瓶塞与瓶颈必须与瓶身相接。",
+      "icons": [
+        {"slug": "potion_healing", "name": "治疗药水", "rarity": "common", "keywords": ["回血", "红药", "生命"], "silhouette": "圆肚瓶 + 木塞", "palette": ["#ff7a6e", "#e8433f", "#a32b2a"], "notes": "液面留 1 行高光，瓶底压暗"},
+        {"slug": "potion_mana", "name": "法力药水", "rarity": "rare", "keywords": ["蓝药", "魔法", "MP"], "silhouette": "细高瓶 + 软木塞", "palette": ["#79a6ff", "#3f74e0", "#274a9c"], "notes": "高光集中在左上瓶肩"},
+        {"slug": "potion_stamina", "name": "体力药水", "rarity": "fine", "keywords": ["耐力", "绿药", "奔跑"], "silhouette": "圆肚瓶 + 短颈", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "液面加 2 格气泡"},
+        {"slug": "potion_antidote", "name": "解毒药剂", "rarity": "fine", "keywords": ["解毒", "紫药", "毒"], "silhouette": "方瓶 + 宽塞", "palette": ["#c8a0ff", "#a06ae8", "#5c3694"], "notes": "瓶身用直角，区别于圆瓶"},
+        {"slug": "potion_strength", "name": "力量药剂", "rarity": "rare", "keywords": ["攻击", "力量", "橙药"], "silhouette": "三角瓶 + 金属塞", "palette": ["#ffb066", "#f07a2e", "#9c4210"], "notes": "瓶口加金属环"},
+        {"slug": "potion_invisibility", "name": "隐身药水", "rarity": "epic", "keywords": ["隐身", "透明", "灰药"], "silhouette": "细颈瓶 + 玻璃塞", "palette": ["#d8ecec", "#9db8bb", "#5f7477"], "notes": "只用轮廓和少量高光表现透明"}
+      ]
+    },
+    {
+      "key": "weapon_melee",
+      "name": "近战武器",
+      "description": "刃、护手、握柄、柄头四段式剪影；刃宽 3~4 格，护手横跨 8~10 格。",
+      "icons": [
+        {"slug": "sword_iron", "name": "铁剑", "rarity": "common", "keywords": ["剑", "新手", "近战"], "silhouette": "直刃 + 十字护手", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "刃尖用 1-2-2 阶梯"},
+        {"slug": "sword_flame", "name": "烈焰剑", "rarity": "epic", "keywords": ["火剑", "燃烧", "史诗"], "silhouette": "直刃 + 火焰刃口", "palette": ["#ffd08a", "#ff7a2e", "#a32b1a"], "notes": "刃口 1px 亮橙，不画外发光"},
+        {"slug": "axe_battle", "name": "战斧", "rarity": "fine", "keywords": ["斧", "重击", "双手"], "silhouette": "单刃斧头 + 长柄", "palette": ["#e8eef6", "#8d99ad", "#4a4f5c"], "notes": "斧刃外弧用 2-3-2 阶梯"},
+        {"slug": "dagger_shadow", "name": "暗影匕首", "rarity": "rare", "keywords": ["匕首", "刺客", "短刃"], "silhouette": "短弯刃 + 小护手", "palette": ["#c8b8e8", "#8a6ab0", "#3e2a5a"], "notes": "整体压暗，只留刃口高光"},
+        {"slug": "spear_hunter", "name": "猎手长矛", "rarity": "fine", "keywords": ["矛", "长柄", "穿刺"], "silhouette": "菱形矛头 + 长杆", "palette": ["#e8eef6", "#8d99ad", "#5a3617"], "notes": "矛头占顶部 4 行"},
+        {"slug": "hammer_war", "name": "战锤", "rarity": "rare", "keywords": ["锤", "钝击", "力量"], "silhouette": "方形锤头 + 短柄", "palette": ["#d8dee8", "#7f8798", "#3c4250"], "notes": "锤头用 5×4 块面，侧面压暗"}
+      ]
+    },
+    {
+      "key": "weapon_ranged",
+      "name": "远程武器",
+      "description": "弧形武器用 1px 阶梯；弹药物必须能单独成为图标。",
+      "icons": [
+        {"slug": "bow_elf", "name": "精灵长弓", "rarity": "rare", "keywords": ["弓", "远程", "精灵"], "silhouette": "C 形弓臂 + 弓弦", "palette": ["#e8c890", "#c98d4b", "#7a4a1e"], "notes": "弓弦用 1px 暗色直线"},
+        {"slug": "crossbow_heavy", "name": "重型弩", "rarity": "fine", "keywords": ["弩", "十字弓", "重装"], "silhouette": "横向弩臂 + 托柄", "palette": ["#c8d0dc", "#7f8798", "#3c4250"], "notes": "弩臂左右对称"},
+        {"slug": "arrow_fire", "name": "火箭", "rarity": "fine", "keywords": ["箭", "火", "投射物"], "silhouette": "斜置箭矢 + 火尾", "palette": ["#ffd08a", "#ff7a2e", "#f0b23e"], "notes": "箭杆 45° 用阶梯表现"},
+        {"slug": "bomb_round", "name": "圆形炸弹", "rarity": "common", "keywords": ["炸弹", "爆炸", "投掷"], "silhouette": "圆球 + 引线", "palette": ["#c8ccd4", "#5c616e", "#2e1f10"], "notes": "引线火花用 2 格亮黄"}
+      ]
+    },
+    {
+      "key": "armor",
+      "name": "防具与盾牌",
+      "description": "盾面上宽下尖；头盔和护甲要保留可穿戴的肩线、面甲等识别特征。",
+      "icons": [
+        {"slug": "shield_mercenary", "name": "佣兵盾", "rarity": "fine", "keywords": ["盾", "格挡", "佣兵"], "silhouette": "上宽下尖盾面 + 徽记", "palette": ["#63a86b", "#3f7a4a", "#27522f"], "notes": "左右各收 1 格做阶梯"},
+        {"slug": "shield_tower", "name": "塔盾", "rarity": "rare", "keywords": ["塔盾", "重盾", "防御"], "silhouette": "长方形盾面 + 金属包边", "palette": ["#d8dee8", "#7f8798", "#3c4250"], "notes": "四角加铆钉 1px 亮色"},
+        {"slug": "helmet_knight", "name": "骑士头盔", "rarity": "fine", "keywords": ["头盔", "骑士", "护甲"], "silhouette": "圆顶 + 面甲缝", "palette": ["#e8eef6", "#8d99ad", "#4a4f5c"], "notes": "面甲缝用 1px 暗线"},
+        {"slug": "armor_leather", "name": "皮甲", "rarity": "common", "keywords": ["皮甲", "轻甲", "护胸"], "silhouette": "胸甲 + 双肩", "palette": ["#d0a06a", "#9a6432", "#5c3a18"], "notes": "肩线高光成对出现"},
+        {"slug": "boots_swift", "name": "疾行之靴", "rarity": "rare", "keywords": ["靴子", "移速", "敏捷"], "silhouette": "高筒靴 + 羽翼", "palette": ["#a8e0f0", "#5aa9c9", "#2a5a70"], "notes": "羽翼占靴筒外侧 2 格"}
+      ]
+    },
+    {
+      "key": "material",
+      "name": "材料与矿石",
+      "description": "材料图标强调材质而非形状，同类材料用统一轮廓色区分品类。",
+      "icons": [
+        {"slug": "ore_iron", "name": "铁矿石", "rarity": "common", "keywords": ["铁矿", "金属", "锻造"], "silhouette": "多面矿块 + 石基", "palette": ["#e8eef6", "#8d99ad", "#4a4f5c"], "notes": "矿块用 3 个切面"},
+        {"slug": "ore_gold", "name": "金矿石", "rarity": "fine", "keywords": ["金矿", "贵金属", "锻造"], "silhouette": "矿块 + 金色矿脉", "palette": ["#fff3c4", "#f0b23e", "#a87712"], "notes": "矿脉沿左下到右上"},
+        {"slug": "crystal_mana", "name": "魔力水晶", "rarity": "rare", "keywords": ["水晶", "魔法", "能量"], "silhouette": "六棱柱 + 尖顶", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "左侧亮面、右侧暗面"},
+        {"slug": "leather_scrap", "name": "皮革碎片", "rarity": "common", "keywords": ["皮革", "材料", "制皮"], "silhouette": "不规则皮片 + 缝线", "palette": ["#d0a06a", "#9a6432", "#5c3a18"], "notes": "边缘留毛边 1px"},
+        {"slug": "cloth_linen", "name": "亚麻布", "rarity": "common", "keywords": ["布", "纺织", "材料"], "silhouette": "折叠布卷", "palette": ["#fffdf8", "#d8d2c8", "#8a847c"], "notes": "折痕用 1px 暗线"},
+        {"slug": "wood_oak", "name": "橡木", "rarity": "common", "keywords": ["木头", "木材", "建造"], "silhouette": "原木段 + 年轮", "palette": ["#c98d4b", "#8f5a2a", "#5a3617"], "notes": "端面年轮 2 圈"}
+      ]
+    },
+    {
+      "key": "currency",
+      "name": "货币与宝石",
+      "description": "圆形或菱形剪影，中心符号必须 4×4 以上；宝石用切面表现价值感。",
+      "icons": [
+        {"slug": "coin_gold", "name": "金币", "rarity": "common", "keywords": ["金币", "货币", "钱"], "silhouette": "圆形 + 中心符号", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "圆用 2-4-10-12 阶梯"},
+        {"slug": "coin_silver", "name": "银币", "rarity": "common", "keywords": ["银币", "货币", "钱"], "silhouette": "圆形 + 星形", "palette": ["#f0f4fa", "#a8b0c0", "#5c6474"], "notes": "星形占 4×4"},
+        {"slug": "gem_emerald", "name": "绿宝石", "rarity": "epic", "keywords": ["宝石", "绿", "镶嵌"], "silhouette": "菱形 + 切面", "palette": ["#6fe0a8", "#2fa36b", "#166a45"], "notes": "左上亮面 + 右下暗面"},
+        {"slug": "gem_ruby", "name": "红宝石", "rarity": "epic", "keywords": ["宝石", "红", "镶嵌"], "silhouette": "菱形 + 切面", "palette": ["#ff9a9a", "#e8433f", "#8e1f24"], "notes": "中心留 2 格高光"},
+        {"slug": "gem_sapphire", "name": "蓝宝石", "rarity": "epic", "keywords": ["宝石", "蓝", "镶嵌"], "silhouette": "菱形 + 切面", "palette": ["#8ab6ff", "#3f74e0", "#1c3f8e"], "notes": "切面线用暗阶"},
+        {"slug": "token_guild", "name": "公会徽章", "rarity": "rare", "keywords": ["徽章", "公会", "声望"], "silhouette": "盾形徽章 + 绶带", "palette": ["#fff3c4", "#f0b23e", "#7a2a2a"], "notes": "绶带从底部两角垂下"}
+      ]
+    },
+    {
+      "key": "food",
+      "name": "食物与消耗品",
+      "description": "食物用暖色与高光表现食欲；识别物（骨、叶、签）必须与主体相接。",
+      "icons": [
+        {"slug": "meat_roast", "name": "烤肉", "rarity": "common", "keywords": ["肉", "食物", "回复"], "silhouette": "肉块 + 骨头", "palette": ["#d08050", "#a85a32", "#6e351e"], "notes": "焦痕用暗部点 2 处"},
+        {"slug": "bread_wheat", "name": "小麦面包", "rarity": "common", "keywords": ["面包", "食物", "饱食"], "silhouette": "椭圆面包 + 割痕", "palette": ["#f0d090", "#c99a4a", "#8a6428"], "notes": "割痕 3 道，间隔 2 行"},
+        {"slug": "apple_fresh", "name": "苹果", "rarity": "common", "keywords": ["苹果", "水果", "食物"], "silhouette": "圆果 + 叶 + 柄", "palette": ["#ff8a7a", "#d84a42", "#8e2222"], "notes": "高光在左上 2 格"},
+        {"slug": "fish_grilled", "name": "烤鱼", "rarity": "fine", "keywords": ["鱼", "食物", "料理"], "silhouette": "鱼身 + 尾 + 串签", "palette": ["#e8c8a0", "#b08a5a", "#6e4a28"], "notes": "鱼鳞用 1px 暗点"},
+        {"slug": "water_flask", "name": "清水壶", "rarity": "common", "keywords": ["水", "饮水", "解渴"], "silhouette": "扁壶 + 壶塞", "palette": ["#b8e0ff", "#5aa9e6", "#2a5a8e"], "notes": "水面留 1 行亮部"}
+      ]
+    },
+    {
+      "key": "quest",
+      "name": "任务与钥匙",
+      "description": "任务道具强调叙事识别物（齿、封蜡、卷边），不要做成纯装饰。",
+      "icons": [
+        {"slug": "key_brass", "name": "黄铜钥匙", "rarity": "fine", "keywords": ["钥匙", "开锁", "任务"], "silhouette": "环 + 柄 + 齿", "palette": ["#e8b06a", "#c98d4b", "#8f5a2a"], "notes": "环内孔至少 3×4"},
+        {"slug": "key_rusty", "name": "生锈钥匙", "rarity": "common", "keywords": ["旧钥匙", "锈", "任务"], "silhouette": "环 + 弯柄 + 齿", "palette": ["#b08a6a", "#7a5a3a", "#4a3220"], "notes": "锈斑用暗色 2×2 点"},
+        {"slug": "scroll_ancient", "name": "古老卷轴", "rarity": "rare", "keywords": ["卷轴", "文献", "任务"], "silhouette": "上下卷轴棍 + 纸面", "palette": ["#fff3d6", "#e8d9b5", "#b8a173"], "notes": "文字线 3 道，间隔 2 行"},
+        {"slug": "map_treasure", "name": "藏宝图", "rarity": "rare", "keywords": ["地图", "宝藏", "任务"], "silhouette": "折角纸张 + 红色标记", "palette": ["#f0e0c0", "#c9b48a", "#8a7040"], "notes": "折角占右上 3×3"},
+        {"slug": "letter_sealed", "name": "密封信", "rarity": "common", "keywords": ["信", "任务", "封蜡"], "silhouette": "信封 + 红色封蜡", "palette": ["#fffdf0", "#d8cbb0", "#b03a3a"], "notes": "封蜡圆形 3×3"}
+      ]
+    },
+    {
+      "key": "magic",
+      "name": "魔法与饰品",
+      "description": "饰品保留环/链/镶嵌关系；魔法物品用发光色点缀但禁止 filter。",
+      "icons": [
+        {"slug": "ring_of_embers", "name": "余烬之戒", "rarity": "legend", "keywords": ["戒指", "火", "饰品"], "silhouette": "环 + 宝石 + 内孔", "palette": ["#fff3c4", "#f0b23e", "#a87712"], "notes": "内孔至少 6×3"},
+        {"slug": "amulet_ward", "name": "守护护符", "rarity": "rare", "keywords": ["护符", "防御", "饰品"], "silhouette": "链 + 圆形坠", "palette": ["#8ab6ff", "#3f74e0", "#1c3f8e"], "notes": "链用 1px 断续像素"},
+        {"slug": "wand_ember", "name": "余烬法杖", "rarity": "epic", "keywords": ["法杖", "火", "魔法"], "silhouette": "长杆 + 顶端宝石", "palette": ["#ffb066", "#f07a2e", "#7a2a10"], "notes": "宝石占顶部 3×4"},
+        {"slug": "tome_fire", "name": "火焰法典", "rarity": "rare", "keywords": ["书", "魔法", "火"], "silhouette": "厚书 + 书扣 + 火焰纹", "palette": ["#e8a06a", "#b04a42", "#6e2a28"], "notes": "书页侧面 1px 亮线"},
+        {"slug": "rune_stone", "name": "符文石", "rarity": "fine", "keywords": ["符文", "石头", "魔法"], "silhouette": "圆石 + 刻纹", "palette": ["#b8c8d0", "#6a7a88", "#2a3640"], "notes": "刻纹用亮色 1px"}
+      ]
+    },
+    {
+      "key": "tool",
+      "name": "工具与杂项",
+      "description": "工具类优先保证握持部分与工作部分可区分，避免整体糊成一根。",
+      "icons": [
+        {"slug": "pickaxe_miner", "name": "矿镐", "rarity": "common", "keywords": ["镐", "挖矿", "工具"], "silhouette": "双头镐 + 木柄", "palette": ["#d8dee8", "#7f8798", "#5a3617"], "notes": "镐头左右各 3 格"},
+        {"slug": "rope_sturdy", "name": "结实的绳子", "rarity": "common", "keywords": ["绳子", "攀爬", "工具"], "silhouette": "盘绕绳圈 + 绳头", "palette": ["#e0c090", "#b08a5a", "#6e4a28"], "notes": "绳纹用 1px 暗线"},
+        {"slug": "torch_wood", "name": "木火把", "rarity": "common", "keywords": ["火把", "照明", "工具"], "silhouette": "木柄 + 火焰", "palette": ["#ffd08a", "#ff7a2e", "#8f5a2a"], "notes": "火焰占顶部 4 行"},
+        {"slug": "lantern_oil", "name": "油灯", "rarity": "fine", "keywords": ["灯", "照明", "工具"], "silhouette": "玻璃罩 + 金属提梁", "palette": ["#fff3c4", "#f0b23e", "#5f7477"], "notes": "罩内留 2 格高光"}
+      ]
+    }
+  ]
+}

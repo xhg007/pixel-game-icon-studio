@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="金币" data-rarity="common">
+  <!-- palette: n=#c9973a j=#e8d08a -->
+  <rect x="4" y="3" width="6" height="1" fill="#c9973a"/>
+  <rect x="3" y="4" width="8" height="1" fill="#c9973a"/>
+  <rect x="2" y="5" width="10" height="1" fill="#c9973a"/>
+  <rect x="2" y="6" width="4" height="1" fill="#c9973a"/>
+  <rect x="6" y="6" width="2" height="1" fill="#e8d08a"/>
+  <rect x="8" y="6" width="4" height="1" fill="#c9973a"/>
+  <rect x="2" y="7" width="3" height="1" fill="#c9973a"/>
+  <rect x="5" y="7" width="3" height="1" fill="#e8d08a"/>
+  <rect x="8" y="7" width="4" height="1" fill="#c9973a"/>
+  <rect x="2" y="8" width="10" height="1" fill="#c9973a"/>
+  <rect x="3" y="9" width="8" height="1" fill="#c9973a"/>
+  <rect x="4" y="10" width="6" height="1" fill="#c9973a"/>
+</svg>

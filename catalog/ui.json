@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "kind": "ui",
+  "title": "常用 UI 交互图标",
+  "description": "按钮、导航、状态、媒体、社交、设置、商业与文件类的通用交互图标清单。",
+  "categories": [
+    {
+      "key": "navigation",
+      "name": "导航",
+      "description": "方向与层级类图标；箭头尖端用 1px 阶梯，避免钝头。",
+      "icons": [
+        {"slug": "ui_home", "name": "首页", "keywords": ["home", "主页", "房子"], "silhouette": "屋顶 + 方形墙体", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "屋顶 45° 用 1-2-3-4 阶梯"},
+        {"slug": "ui_back", "name": "返回", "keywords": ["back", "后退", "左箭头"], "silhouette": "左向箭头 + 短杆", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "箭头头部占 6×6"},
+        {"slug": "ui_forward", "name": "前进", "keywords": ["forward", "下一步", "右箭头"], "silhouette": "右向箭头 + 短杆", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "与 ui_back 镜像"},
+        {"slug": "ui_menu", "name": "菜单", "keywords": ["menu", "汉堡菜单", "三条线"], "silhouette": "三条等距横线", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "线宽 2px，间隔 3px"},
+        {"slug": "ui_close", "name": "关闭", "keywords": ["close", "叉", "取消"], "silhouette": "两条交叉斜线", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "交叉点居中，线宽 2px"},
+        {"slug": "ui_search", "name": "搜索", "keywords": ["search", "放大镜", "查找"], "silhouette": "圆环 + 斜柄", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "镜片内孔保持透明"}
+      ]
+    },
+    {
+      "key": "action",
+      "name": "操作",
+      "description": "增删改存等高频操作；图标语义靠附属符号（加号、磁盘、箭头）区分。",
+      "icons": [
+        {"slug": "ui_add", "name": "添加", "keywords": ["add", "新增", "加号"], "silhouette": "粗十字", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "十字臂宽 2px"},
+        {"slug": "ui_remove", "name": "移除", "keywords": ["remove", "删除", "减号"], "silhouette": "单横线", "palette": ["#ff9b8b", "#e8433f", "#8e1f24"], "notes": "横线居中，宽 8px"},
+        {"slug": "ui_edit", "name": "编辑", "keywords": ["edit", "铅笔", "修改"], "silhouette": "铅笔 + 笔尖", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "笔杆 45° 用阶梯"},
+        {"slug": "ui_save", "name": "保存", "keywords": ["save", "磁盘", "存储"], "silhouette": "软盘轮廓 + 标签", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "标签区留 2×2 亮块"},
+        {"slug": "ui_copy", "name": "复制", "keywords": ["copy", "双文档", "拷贝"], "silhouette": "两个错位矩形", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "后层矩形偏移 2px"},
+        {"slug": "ui_download", "name": "下载", "keywords": ["download", "向下箭头", "保存到本地"], "silhouette": "下箭头 + 底托", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "底托宽 8px"},
+        {"slug": "ui_upload", "name": "上传", "keywords": ["upload", "向上箭头", "发布"], "silhouette": "上箭头 + 底托", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "与 ui_download 镜像"},
+        {"slug": "ui_refresh", "name": "刷新", "keywords": ["refresh", "重载", "循环"], "silhouette": "两段圆弧 + 箭头", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "缺口在右上，箭头 3×3"}
+      ]
+    },
+    {
+      "key": "state",
+      "name": "状态反馈",
+      "description": "用形状区分状态：对勾、感叹号、叉、问号；颜色只做辅助，色盲用户也能辨认。",
+      "icons": [
+        {"slug": "ui_success", "name": "成功", "keywords": ["success", "完成", "对勾"], "silhouette": "圆形 + 对勾", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "对勾转折点居中偏左下"},
+        {"slug": "ui_error", "name": "错误", "keywords": ["error", "失败", "叉"], "silhouette": "圆形 + 叉", "palette": ["#ff9b8b", "#e8433f", "#8e1f24"], "notes": "叉线宽 2px"},
+        {"slug": "ui_warning", "name": "警告", "keywords": ["warning", "警示", "三角形"], "silhouette": "三角形 + 感叹号", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "三角形顶点留 1 格"},
+        {"slug": "ui_info", "name": "信息", "keywords": ["info", "提示", "i"], "silhouette": "圆形 + i", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "圆环内孔 6×6"},
+        {"slug": "ui_loading", "name": "加载中", "keywords": ["loading", "转圈", "等待"], "silhouette": "断续圆环", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "4 段弧，留 4 个缺口"},
+        {"slug": "ui_lock", "name": "锁定", "keywords": ["lock", "上锁", "私有"], "silhouette": "锁体 + 锁梁", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "锁梁宽 2px，顶部圆角"},
+        {"slug": "ui_unlock", "name": "解锁", "keywords": ["unlock", "开锁", "公开"], "silhouette": "锁体 + 开启锁梁", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "锁梁向右上开口"},
+        {"slug": "ui_check", "name": "选中", "keywords": ["check", "勾选", "完成"], "silhouette": "方框 + 对勾", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "方框线宽 1px"}
+      ]
+    },
+    {
+      "key": "media",
+      "name": "媒体播放",
+      "description": "播放/暂停等图形必须正立可辨，不使用文字；圆形按钮建议 12px 直径。",
+      "icons": [
+        {"slug": "ui_play", "name": "播放", "keywords": ["play", "开始", "三角"], "silhouette": "右向三角", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "三角占 8×10"},
+        {"slug": "ui_pause", "name": "暂停", "keywords": ["pause", "暂停", "双竖线"], "silhouette": "两条竖线", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "线宽 3px，间隔 3px"},
+        {"slug": "ui_stop", "name": "停止", "keywords": ["stop", "停止", "方块"], "silhouette": "实心方块", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "方块 8×8，圆角 0"},
+        {"slug": "ui_volume", "name": "音量", "keywords": ["volume", "声音", "喇叭"], "silhouette": "喇叭 + 声波", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "声波 2 段弧"},
+        {"slug": "ui_mute", "name": "静音", "keywords": ["mute", "静音", "关闭声音"], "silhouette": "喇叭 + 叉", "palette": ["#ff9b8b", "#e8433f", "#8e1f24"], "notes": "叉覆盖声波位置"},
+        {"slug": "ui_fullscreen", "name": "全屏", "keywords": ["fullscreen", "全屏", "四角"], "silhouette": "四角括号", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "四角各 3×3 折线"}
+      ]
+    },
+    {
+      "key": "social",
+      "name": "社交与通知",
+      "description": "人物类图标优先头部 + 肩线；通知类用角标表达未读数。",
+      "icons": [
+        {"slug": "ui_user", "name": "用户", "keywords": ["user", "个人", "头像"], "silhouette": "头部圆 + 肩部梯形", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "头部占 6×6"},
+        {"slug": "ui_users", "name": "用户组", "keywords": ["users", "团队", "多人"], "silhouette": "双人剪影", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "后层人物压暗"},
+        {"slug": "ui_chat", "name": "聊天", "keywords": ["chat", "消息", "气泡"], "silhouette": "对话气泡 + 小尾巴", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "尾巴在左下"},
+        {"slug": "ui_like", "name": "点赞", "keywords": ["like", "喜欢", "爱心"], "silhouette": "心形", "palette": ["#ff9b8b", "#e8433f", "#8e1f24"], "notes": "心形顶部两个凸起成对"},
+        {"slug": "ui_share", "name": "分享", "keywords": ["share", "转发", "节点"], "silhouette": "三个节点 + 连线", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "节点 3×3，连线 1px"},
+        {"slug": "ui_notification", "name": "通知", "keywords": ["notification", "铃铛", "提醒"], "silhouette": "铃铛 + 顶部提环", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "铃舌在底部中央"}
+      ]
+    },
+    {
+      "key": "settings",
+      "name": "设置与工具",
+      "description": "齿轮、漏斗、排序等图标保留可辨识的机械/工具特征，不要简化成抽象块。",
+      "icons": [
+        {"slug": "ui_settings", "name": "设置", "keywords": ["settings", "齿轮", "偏好"], "silhouette": "齿轮 + 中心孔", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "8 齿，中心孔 4×4"},
+        {"slug": "ui_filter", "name": "筛选", "keywords": ["filter", "漏斗", "过滤"], "silhouette": "漏斗", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "漏斗下口 2px 宽"},
+        {"slug": "ui_sort", "name": "排序", "keywords": ["sort", "上下箭头", "排列"], "silhouette": "上下双箭头 + 横线", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "箭头尖端各 4×4"},
+        {"slug": "ui_calendar", "name": "日历", "keywords": ["calendar", "日期", "日程"], "silhouette": "方框 + 挂环 + 网格", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "顶部挂环左右各 1 个"},
+        {"slug": "ui_clock", "name": "时钟", "keywords": ["clock", "时间", "定时"], "silhouette": "圆 + 指针", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "指针指向 10:10"},
+        {"slug": "ui_help", "name": "帮助", "keywords": ["help", "问号", "支持"], "silhouette": "圆形 + 问号", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "问号底部圆点 2×2"}
+      ]
+    },
+    {
+      "key": "commerce",
+      "name": "商业与奖励",
+      "description": "购物车、礼包、优惠券等图标要保留交易语义，常用金色强调。",
+      "icons": [
+        {"slug": "ui_cart", "name": "购物车", "keywords": ["cart", "购物", "结算"], "silhouette": "车篮 + 双轮 + 推杆", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "轮子 2×2，间隔 4px"},
+        {"slug": "ui_bag", "name": "背包", "keywords": ["bag", "库存", "道具栏"], "silhouette": "包体 + 提手", "palette": ["#d0a06a", "#9a6432", "#5c3a18"], "notes": "提手宽 4px"},
+        {"slug": "ui_coin", "name": "金币", "keywords": ["coin", "货币", "付费"], "silhouette": "圆形 + 中心星", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "复用 coin_gold 的圆角阶梯"},
+        {"slug": "ui_gift", "name": "礼包", "keywords": ["gift", "礼物", "奖励"], "silhouette": "礼盒 + 缎带", "palette": ["#ff9b8b", "#e8433f", "#8e1f24"], "notes": "缎带十字贯穿盒面"},
+        {"slug": "ui_coupon", "name": "优惠券", "keywords": ["coupon", "折扣", "票券"], "silhouette": "票券 + 锯齿边", "palette": ["#8ef0b6", "#4ce88e", "#1f8a52"], "notes": "左右各 2 个缺口"}
+      ]
+    },
+    {
+      "key": "file",
+      "name": "文件与链接",
+      "description": "文件类图标靠轮廓区分类型：折角、文件夹凸舌、图片山峰、链条。",
+      "icons": [
+        {"slug": "ui_file", "name": "文件", "keywords": ["file", "文档", "纸张"], "silhouette": "矩形 + 右上折角", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "折角占 3×3"},
+        {"slug": "ui_folder", "name": "文件夹", "keywords": ["folder", "目录", "归档"], "silhouette": "文件夹 + 顶部凸舌", "palette": ["#ffd77a", "#f0b23e", "#a87712"], "notes": "凸舌偏左 3 格"},
+        {"slug": "ui_image", "name": "图片", "keywords": ["image", "照片", "山峰"], "silhouette": "矩形 + 山峰 + 太阳", "palette": ["#b8d8ff", "#5a8ae6", "#2a4a9c"], "notes": "山峰用 2-3-2 阶梯"},
+        {"slug": "ui_link", "name": "链接", "keywords": ["link", "链条", "超链接"], "silhouette": "两个链环相扣", "palette": ["#eef2f8", "#8d99ad", "#4a4f5c"], "notes": "链环各 5×3，重叠 1 格"},
+        {"slug": "ui_trash", "name": "删除", "keywords": ["trash", "垃圾桶", "移除"], "silhouette": "桶身 + 桶盖 + 竖纹", "palette": ["#ff9b8b", "#e8433f", "#8e1f24"], "notes": "桶身竖纹 2 道"}
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>图标工坊 · 像素 SVG 图库预览</title>
+<title>图标工厂 · 像素 SVG 图库预览</title>
 <style>
 :root{
   --bg:#141009; --panel:#1e1811; --panel2:#231b12;
@@ -21,12 +21,12 @@ h1{font-size:20px;font-weight:bold;letter-spacing:2px;text-shadow:2px 2px 0 #000
 h1 span{color:var(--gold)}
 .sub{color:var(--dim);margin:6px 0 20px}
 #toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
-#toolbar button{
-  cursor:pointer;font-family:inherit;font-size:13px;color:var(--ink);
+#toolbar button,#toolbar a{
+  cursor:pointer;font-family:inherit;font-size:13px;color:var(--ink);text-decoration:none;
   background:var(--panel2);border:none;padding:6px 12px;
   box-shadow:0 0 0 2px var(--line),0 0 0 4px var(--line-dark);
 }
-#toolbar button:hover{box-shadow:0 0 0 2px var(--gold),0 0 0 4px var(--line-dark)}
+#toolbar button:hover,#toolbar a:hover{box-shadow:0 0 0 2px var(--gold),0 0 0 4px var(--line-dark)}
 #toolbar .stat{color:var(--dim);margin-left:auto}
 #grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:14px;
@@ -70,12 +70,13 @@ h1 span{color:var(--gold)}
 </head>
 <body>
 <div id="app">
-  <h1>图标工坊 <span>ICON STUDIO</span></h1>
+  <h1>图标工厂 <span>ICON STUDIO</span></h1>
   <p class="sub">由 LLM 生成 · 16×16 像素风 SVG · 点按卡片检视 / 切换尺寸 / 打开 PNG</p>
   <div id="err"></div>
   <div id="toolbar">
     <button id="bg-toggle">背景: 深色</button>
     <button id="size-toggle">尺寸: 64px</button>
+    <a href="/studio">AGENTS 配置</a>
     <span class="stat" id="stat"></span>
   </div>
   <div id="grid"></div>
@@ -198,8 +199,10 @@ document.getElementById("size-toggle").onclick = e=>{
     const err = document.getElementById("err");
     err.style.display = "block";
     err.innerHTML = "未找到 <code>icons/manifest.json</code>，也未能在 <code>icons/</code> 下发现 SVG。" +
-      "请先运行 <code>python scripts/svg2png.py</code>（生成 manifest），或将 SVG 放入 <code>icons/</code> 目录。" +
-      "注意：直接双击打开 HTML 时浏览器可能阻止 fetch，请用 <code>npx serve .</code> 启动本地服务。";
+      "请先运行 <code>uv run pgs build</code>（生成 PNG 与 manifest），" +
+      "或将 SVG 放入 <code>icons/</code> 目录。" +
+      "注意：直接双击打开 HTML 时浏览器可能阻止 fetch，请用 " +
+      "<code>uv run pgs serve</code> 启动本地服务。";
     return;
   }
   render(data.icons);

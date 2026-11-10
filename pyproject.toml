@@ -1,18 +1,19 @@
 [project]
 name = "pixel-game-icon-studio"
 version = "0.1.0"
-description = "Add your description here"
+description = "图标工厂：16×16 像素风游戏图标生成、规范校验、导出 PNG 与预览"
 readme = "README.md"
 authors = [
     { name = "haoxiangru", email = "haoxiangru@yeah.net" }
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "cairosvg>=2.9.1",
+    "mcp>=1.9",
+    "pillow>=11",
 ]
 
 [project.scripts]
-pixel-game-icon-studio = "pixel_game_icon_studio:main"
+pgs = "pixel_game_icon_studio.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="隐身药水" data-rarity="epic">
+  <!-- palette: s=#6a878c g=#6a878c G=#a8c4c8 d=#37494c -->
+  <rect x="5" y="1" width="4" height="1" fill="#6a878c"/>
+  <rect x="5" y="2" width="4" height="1" fill="#6a878c"/>
+  <rect x="6" y="3" width="2" height="1" fill="#6a878c"/>
+  <rect x="6" y="4" width="2" height="1" fill="#6a878c"/>
+  <rect x="6" y="5" width="2" height="1" fill="#6a878c"/>
+  <rect x="5" y="6" width="4" height="1" fill="#6a878c"/>
+  <rect x="4" y="7" width="6" height="1" fill="#6a878c"/>
+  <rect x="4" y="8" width="6" height="1" fill="#6a878c"/>
+  <rect x="4" y="9" width="2" height="1" fill="#6a878c"/>
+  <rect x="6" y="9" width="2" height="1" fill="#a8c4c8"/>
+  <rect x="8" y="9" width="2" height="1" fill="#6a878c"/>
+  <rect x="4" y="10" width="6" height="1" fill="#6a878c"/>
+  <rect x="4" y="11" width="6" height="1" fill="#6a878c"/>
+  <rect x="5" y="12" width="4" height="1" fill="#6a878c"/>
+  <rect x="6" y="13" width="2" height="1" fill="#37494c"/>
+</svg>

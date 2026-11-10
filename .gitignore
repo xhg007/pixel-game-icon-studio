@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+/.idea/pixel-game-icon-studio.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/.idea/modules.xml
+/.idea/.gitignore
+
+# Generated icon artifacts
+/png/
+/icons/manifest.json
+/.reasonix/tasks/
+/.reasonix

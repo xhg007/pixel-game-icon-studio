@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="余烬之戒" data-rarity="legend">
+  <!-- palette: g=#6a4c12 G=#b08a3a j=#c9973a -->
+  <rect x="4" y="3" width="2" height="1" fill="#6a4c12"/>
+  <rect x="6" y="3" width="2" height="1" fill="#b08a3a"/>
+  <rect x="8" y="3" width="2" height="1" fill="#6a4c12"/>
+  <rect x="3" y="4" width="1" height="1" fill="#6a4c12"/>
+  <rect x="10" y="4" width="1" height="1" fill="#6a4c12"/>
+  <rect x="2" y="5" width="1" height="1" fill="#6a4c12"/>
+  <rect x="11" y="5" width="1" height="1" fill="#6a4c12"/>
+  <rect x="2" y="6" width="1" height="1" fill="#6a4c12"/>
+  <rect x="11" y="6" width="1" height="1" fill="#6a4c12"/>
+  <rect x="2" y="7" width="1" height="1" fill="#6a4c12"/>
+  <rect x="11" y="7" width="1" height="1" fill="#6a4c12"/>
+  <rect x="2" y="8" width="1" height="1" fill="#6a4c12"/>
+  <rect x="11" y="8" width="1" height="1" fill="#6a4c12"/>
+  <rect x="2" y="9" width="1" height="1" fill="#6a4c12"/>
+  <rect x="11" y="9" width="1" height="1" fill="#6a4c12"/>
+  <rect x="3" y="10" width="1" height="1" fill="#6a4c12"/>
+  <rect x="10" y="10" width="1" height="1" fill="#6a4c12"/>
+  <rect x="4" y="11" width="6" height="1" fill="#6a4c12"/>
+</svg>

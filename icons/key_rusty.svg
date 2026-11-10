@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="生锈钥匙" data-rarity="common">
+  <!-- palette: g=#4a3220 G=#7a5a3a -->
+  <rect x="4" y="3" width="4" height="1" fill="#4a3220"/>
+  <rect x="3" y="4" width="1" height="1" fill="#4a3220"/>
+  <rect x="8" y="4" width="1" height="1" fill="#4a3220"/>
+  <rect x="3" y="5" width="1" height="1" fill="#4a3220"/>
+  <rect x="8" y="5" width="1" height="1" fill="#4a3220"/>
+  <rect x="4" y="6" width="4" height="1" fill="#4a3220"/>
+  <rect x="6" y="7" width="2" height="1" fill="#4a3220"/>
+  <rect x="6" y="8" width="2" height="1" fill="#4a3220"/>
+  <rect x="6" y="9" width="3" height="1" fill="#4a3220"/>
+  <rect x="6" y="10" width="2" height="1" fill="#4a3220"/>
+  <rect x="6" y="11" width="3" height="1" fill="#4a3220"/>
+  <rect x="6" y="12" width="2" height="1" fill="#4a3220"/>
+</svg>

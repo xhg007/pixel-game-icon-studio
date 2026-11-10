@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pixel-game-icon": {
+      "command": "uv",
+      "args": [
+        "run",
+        "pgs",
+        "mcp"
+      ]
+    }
+  }
+}

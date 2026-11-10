@@ -1,0 +1,53 @@
+kind,category,category_name,slug,name,rarity,keywords,silhouette,palette,notes
+items,potion,药水与药剂,potion_healing,治疗药水,common,回血 红药 生命,圆肚瓶 + 木塞,#ff7a6e #e8433f #a32b2a,液面留 1 行高光，瓶底压暗
+items,potion,药水与药剂,potion_mana,法力药水,rare,蓝药 魔法 MP,细高瓶 + 软木塞,#79a6ff #3f74e0 #274a9c,高光集中在左上瓶肩
+items,potion,药水与药剂,potion_stamina,体力药水,fine,耐力 绿药 奔跑,圆肚瓶 + 短颈,#8ef0b6 #4ce88e #1f8a52,液面加 2 格气泡
+items,potion,药水与药剂,potion_antidote,解毒药剂,fine,解毒 紫药 毒,方瓶 + 宽塞,#c8a0ff #a06ae8 #5c3694,瓶身用直角，区别于圆瓶
+items,potion,药水与药剂,potion_strength,力量药剂,rare,攻击 力量 橙药,三角瓶 + 金属塞,#ffb066 #f07a2e #9c4210,瓶口加金属环
+items,potion,药水与药剂,potion_invisibility,隐身药水,epic,隐身 透明 灰药,细颈瓶 + 玻璃塞,#d8ecec #9db8bb #5f7477,只用轮廓和少量高光表现透明
+items,weapon_melee,近战武器,sword_iron,铁剑,common,剑 新手 近战,直刃 + 十字护手,#eef2f8 #8d99ad #4a4f5c,刃尖用 1-2-2 阶梯
+items,weapon_melee,近战武器,sword_flame,烈焰剑,epic,火剑 燃烧 史诗,直刃 + 火焰刃口,#ffd08a #ff7a2e #a32b1a,刃口 1px 亮橙，不画外发光
+items,weapon_melee,近战武器,axe_battle,战斧,fine,斧 重击 双手,单刃斧头 + 长柄,#e8eef6 #8d99ad #4a4f5c,斧刃外弧用 2-3-2 阶梯
+items,weapon_melee,近战武器,dagger_shadow,暗影匕首,rare,匕首 刺客 短刃,短弯刃 + 小护手,#c8b8e8 #8a6ab0 #3e2a5a,整体压暗，只留刃口高光
+items,weapon_melee,近战武器,spear_hunter,猎手长矛,fine,矛 长柄 穿刺,菱形矛头 + 长杆,#e8eef6 #8d99ad #5a3617,矛头占顶部 4 行
+items,weapon_melee,近战武器,hammer_war,战锤,rare,锤 钝击 力量,方形锤头 + 短柄,#d8dee8 #7f8798 #3c4250,锤头用 5×4 块面，侧面压暗
+items,weapon_ranged,远程武器,bow_elf,精灵长弓,rare,弓 远程 精灵,C 形弓臂 + 弓弦,#e8c890 #c98d4b #7a4a1e,弓弦用 1px 暗色直线
+items,weapon_ranged,远程武器,crossbow_heavy,重型弩,fine,弩 十字弓 重装,横向弩臂 + 托柄,#c8d0dc #7f8798 #3c4250,弩臂左右对称
+items,weapon_ranged,远程武器,arrow_fire,火箭,fine,箭 火 投射物,斜置箭矢 + 火尾,#ffd08a #ff7a2e #f0b23e,箭杆 45° 用阶梯表现
+items,weapon_ranged,远程武器,bomb_round,圆形炸弹,common,炸弹 爆炸 投掷,圆球 + 引线,#c8ccd4 #5c616e #2e1f10,引线火花用 2 格亮黄
+items,armor,防具与盾牌,shield_mercenary,佣兵盾,fine,盾 格挡 佣兵,上宽下尖盾面 + 徽记,#63a86b #3f7a4a #27522f,左右各收 1 格做阶梯
+items,armor,防具与盾牌,shield_tower,塔盾,rare,塔盾 重盾 防御,长方形盾面 + 金属包边,#d8dee8 #7f8798 #3c4250,四角加铆钉 1px 亮色
+items,armor,防具与盾牌,helmet_knight,骑士头盔,fine,头盔 骑士 护甲,圆顶 + 面甲缝,#e8eef6 #8d99ad #4a4f5c,面甲缝用 1px 暗线
+items,armor,防具与盾牌,armor_leather,皮甲,common,皮甲 轻甲 护胸,胸甲 + 双肩,#d0a06a #9a6432 #5c3a18,肩线高光成对出现
+items,armor,防具与盾牌,boots_swift,疾行之靴,rare,靴子 移速 敏捷,高筒靴 + 羽翼,#a8e0f0 #5aa9c9 #2a5a70,羽翼占靴筒外侧 2 格
+items,material,材料与矿石,ore_iron,铁矿石,common,铁矿 金属 锻造,多面矿块 + 石基,#e8eef6 #8d99ad #4a4f5c,矿块用 3 个切面
+items,material,材料与矿石,ore_gold,金矿石,fine,金矿 贵金属 锻造,矿块 + 金色矿脉,#fff3c4 #f0b23e #a87712,矿脉沿左下到右上
+items,material,材料与矿石,crystal_mana,魔力水晶,rare,水晶 魔法 能量,六棱柱 + 尖顶,#b8d8ff #5a8ae6 #2a4a9c,左侧亮面、右侧暗面
+items,material,材料与矿石,leather_scrap,皮革碎片,common,皮革 材料 制皮,不规则皮片 + 缝线,#d0a06a #9a6432 #5c3a18,边缘留毛边 1px
+items,material,材料与矿石,cloth_linen,亚麻布,common,布 纺织 材料,折叠布卷,#fffdf8 #d8d2c8 #8a847c,折痕用 1px 暗线
+items,material,材料与矿石,wood_oak,橡木,common,木头 木材 建造,原木段 + 年轮,#c98d4b #8f5a2a #5a3617,端面年轮 2 圈
+items,currency,货币与宝石,coin_gold,金币,common,金币 货币 钱,圆形 + 中心符号,#ffd77a #f0b23e #a87712,圆用 2-4-10-12 阶梯
+items,currency,货币与宝石,coin_silver,银币,common,银币 货币 钱,圆形 + 星形,#f0f4fa #a8b0c0 #5c6474,星形占 4×4
+items,currency,货币与宝石,gem_emerald,绿宝石,epic,宝石 绿 镶嵌,菱形 + 切面,#6fe0a8 #2fa36b #166a45,左上亮面 + 右下暗面
+items,currency,货币与宝石,gem_ruby,红宝石,epic,宝石 红 镶嵌,菱形 + 切面,#ff9a9a #e8433f #8e1f24,中心留 2 格高光
+items,currency,货币与宝石,gem_sapphire,蓝宝石,epic,宝石 蓝 镶嵌,菱形 + 切面,#8ab6ff #3f74e0 #1c3f8e,切面线用暗阶
+items,currency,货币与宝石,token_guild,公会徽章,rare,徽章 公会 声望,盾形徽章 + 绶带,#fff3c4 #f0b23e #7a2a2a,绶带从底部两角垂下
+items,food,食物与消耗品,meat_roast,烤肉,common,肉 食物 回复,肉块 + 骨头,#d08050 #a85a32 #6e351e,焦痕用暗部点 2 处
+items,food,食物与消耗品,bread_wheat,小麦面包,common,面包 食物 饱食,椭圆面包 + 割痕,#f0d090 #c99a4a #8a6428,割痕 3 道，间隔 2 行
+items,food,食物与消耗品,apple_fresh,苹果,common,苹果 水果 食物,圆果 + 叶 + 柄,#ff8a7a #d84a42 #8e2222,高光在左上 2 格
+items,food,食物与消耗品,fish_grilled,烤鱼,fine,鱼 食物 料理,鱼身 + 尾 + 串签,#e8c8a0 #b08a5a #6e4a28,鱼鳞用 1px 暗点
+items,food,食物与消耗品,water_flask,清水壶,common,水 饮水 解渴,扁壶 + 壶塞,#b8e0ff #5aa9e6 #2a5a8e,水面留 1 行亮部
+items,quest,任务与钥匙,key_brass,黄铜钥匙,fine,钥匙 开锁 任务,环 + 柄 + 齿,#e8b06a #c98d4b #8f5a2a,环内孔至少 3×4
+items,quest,任务与钥匙,key_rusty,生锈钥匙,common,旧钥匙 锈 任务,环 + 弯柄 + 齿,#b08a6a #7a5a3a #4a3220,锈斑用暗色 2×2 点
+items,quest,任务与钥匙,scroll_ancient,古老卷轴,rare,卷轴 文献 任务,上下卷轴棍 + 纸面,#fff3d6 #e8d9b5 #b8a173,文字线 3 道，间隔 2 行
+items,quest,任务与钥匙,map_treasure,藏宝图,rare,地图 宝藏 任务,折角纸张 + 红色标记,#f0e0c0 #c9b48a #8a7040,折角占右上 3×3
+items,quest,任务与钥匙,letter_sealed,密封信,common,信 任务 封蜡,信封 + 红色封蜡,#fffdf0 #d8cbb0 #b03a3a,封蜡圆形 3×3
+items,magic,魔法与饰品,ring_of_embers,余烬之戒,legend,戒指 火 饰品,环 + 宝石 + 内孔,#fff3c4 #f0b23e #a87712,内孔至少 6×3
+items,magic,魔法与饰品,amulet_ward,守护护符,rare,护符 防御 饰品,链 + 圆形坠,#8ab6ff #3f74e0 #1c3f8e,链用 1px 断续像素
+items,magic,魔法与饰品,wand_ember,余烬法杖,epic,法杖 火 魔法,长杆 + 顶端宝石,#ffb066 #f07a2e #7a2a10,宝石占顶部 3×4
+items,magic,魔法与饰品,tome_fire,火焰法典,rare,书 魔法 火,厚书 + 书扣 + 火焰纹,#e8a06a #b04a42 #6e2a28,书页侧面 1px 亮线
+items,magic,魔法与饰品,rune_stone,符文石,fine,符文 石头 魔法,圆石 + 刻纹,#b8c8d0 #6a7a88 #2a3640,刻纹用亮色 1px
+items,tool,工具与杂项,pickaxe_miner,矿镐,common,镐 挖矿 工具,双头镐 + 木柄,#d8dee8 #7f8798 #5a3617,镐头左右各 3 格
+items,tool,工具与杂项,rope_sturdy,结实的绳子,common,绳子 攀爬 工具,盘绕绳圈 + 绳头,#e0c090 #b08a5a #6e4a28,绳纹用 1px 暗线
+items,tool,工具与杂项,torch_wood,木火把,common,火把 照明 工具,木柄 + 火焰,#ffd08a #ff7a2e #8f5a2a,火焰占顶部 4 行
+items,tool,工具与杂项,lantern_oil,油灯,fine,灯 照明 工具,玻璃罩 + 金属提梁,#fff3c4 #f0b23e #5f7477,罩内留 2 格高光

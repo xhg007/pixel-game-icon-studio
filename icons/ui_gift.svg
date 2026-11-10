@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="礼包" data-rarity="common">
+  <!-- palette: n=#c93a4a j=#c9973a -->
+  <rect x="4" y="3" width="2" height="1" fill="#c93a4a"/>
+  <rect x="8" y="3" width="2" height="1" fill="#c93a4a"/>
+  <rect x="3" y="4" width="8" height="1" fill="#c93a4a"/>
+  <rect x="3" y="5" width="8" height="1" fill="#c93a4a"/>
+  <rect x="2" y="6" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="6" width="2" height="1" fill="#c9973a"/>
+  <rect x="9" y="6" width="4" height="1" fill="#c93a4a"/>
+  <rect x="2" y="7" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="7" width="2" height="1" fill="#c9973a"/>
+  <rect x="9" y="7" width="4" height="1" fill="#c93a4a"/>
+  <rect x="2" y="8" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="8" width="2" height="1" fill="#c9973a"/>
+  <rect x="9" y="8" width="4" height="1" fill="#c93a4a"/>
+  <rect x="2" y="9" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="9" width="2" height="1" fill="#c9973a"/>
+  <rect x="9" y="9" width="4" height="1" fill="#c93a4a"/>
+  <rect x="2" y="10" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="10" width="2" height="1" fill="#c9973a"/>
+  <rect x="9" y="10" width="4" height="1" fill="#c93a4a"/>
+  <rect x="3" y="11" width="8" height="1" fill="#c93a4a"/>
+</svg>

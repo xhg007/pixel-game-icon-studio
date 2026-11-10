@@ -1,0 +1,51 @@
+kind,category,category_name,slug,name,rarity,keywords,silhouette,palette,notes
+ui,navigation,导航,ui_home,首页,,home 主页 房子,屋顶 + 方形墙体,#eef2f8 #8d99ad #4a4f5c,屋顶 45° 用 1-2-3-4 阶梯
+ui,navigation,导航,ui_back,返回,,back 后退 左箭头,左向箭头 + 短杆,#eef2f8 #8d99ad #4a4f5c,箭头头部占 6×6
+ui,navigation,导航,ui_forward,前进,,forward 下一步 右箭头,右向箭头 + 短杆,#eef2f8 #8d99ad #4a4f5c,与 ui_back 镜像
+ui,navigation,导航,ui_menu,菜单,,menu 汉堡菜单 三条线,三条等距横线,#eef2f8 #8d99ad #4a4f5c,线宽 2px，间隔 3px
+ui,navigation,导航,ui_close,关闭,,close 叉 取消,两条交叉斜线,#eef2f8 #8d99ad #4a4f5c,交叉点居中，线宽 2px
+ui,navigation,导航,ui_search,搜索,,search 放大镜 查找,圆环 + 斜柄,#eef2f8 #8d99ad #4a4f5c,镜片内孔保持透明
+ui,action,操作,ui_add,添加,,add 新增 加号,粗十字,#8ef0b6 #4ce88e #1f8a52,十字臂宽 2px
+ui,action,操作,ui_remove,移除,,remove 删除 减号,单横线,#ff9b8b #e8433f #8e1f24,横线居中，宽 8px
+ui,action,操作,ui_edit,编辑,,edit 铅笔 修改,铅笔 + 笔尖,#ffd77a #f0b23e #a87712,笔杆 45° 用阶梯
+ui,action,操作,ui_save,保存,,save 磁盘 存储,软盘轮廓 + 标签,#b8d8ff #5a8ae6 #2a4a9c,标签区留 2×2 亮块
+ui,action,操作,ui_copy,复制,,copy 双文档 拷贝,两个错位矩形,#eef2f8 #8d99ad #4a4f5c,后层矩形偏移 2px
+ui,action,操作,ui_download,下载,,download 向下箭头 保存到本地,下箭头 + 底托,#b8d8ff #5a8ae6 #2a4a9c,底托宽 8px
+ui,action,操作,ui_upload,上传,,upload 向上箭头 发布,上箭头 + 底托,#b8d8ff #5a8ae6 #2a4a9c,与 ui_download 镜像
+ui,action,操作,ui_refresh,刷新,,refresh 重载 循环,两段圆弧 + 箭头,#8ef0b6 #4ce88e #1f8a52,缺口在右上，箭头 3×3
+ui,state,状态反馈,ui_success,成功,,success 完成 对勾,圆形 + 对勾,#8ef0b6 #4ce88e #1f8a52,对勾转折点居中偏左下
+ui,state,状态反馈,ui_error,错误,,error 失败 叉,圆形 + 叉,#ff9b8b #e8433f #8e1f24,叉线宽 2px
+ui,state,状态反馈,ui_warning,警告,,warning 警示 三角形,三角形 + 感叹号,#ffd77a #f0b23e #a87712,三角形顶点留 1 格
+ui,state,状态反馈,ui_info,信息,,info 提示 i,圆形 + i,#b8d8ff #5a8ae6 #2a4a9c,圆环内孔 6×6
+ui,state,状态反馈,ui_loading,加载中,,loading 转圈 等待,断续圆环,#eef2f8 #8d99ad #4a4f5c,4 段弧，留 4 个缺口
+ui,state,状态反馈,ui_lock,锁定,,lock 上锁 私有,锁体 + 锁梁,#ffd77a #f0b23e #a87712,锁梁宽 2px，顶部圆角
+ui,state,状态反馈,ui_unlock,解锁,,unlock 开锁 公开,锁体 + 开启锁梁,#8ef0b6 #4ce88e #1f8a52,锁梁向右上开口
+ui,state,状态反馈,ui_check,选中,,check 勾选 完成,方框 + 对勾,#8ef0b6 #4ce88e #1f8a52,方框线宽 1px
+ui,media,媒体播放,ui_play,播放,,play 开始 三角,右向三角,#eef2f8 #8d99ad #4a4f5c,三角占 8×10
+ui,media,媒体播放,ui_pause,暂停,,pause 暂停 双竖线,两条竖线,#eef2f8 #8d99ad #4a4f5c,线宽 3px，间隔 3px
+ui,media,媒体播放,ui_stop,停止,,stop 停止 方块,实心方块,#eef2f8 #8d99ad #4a4f5c,方块 8×8，圆角 0
+ui,media,媒体播放,ui_volume,音量,,volume 声音 喇叭,喇叭 + 声波,#eef2f8 #8d99ad #4a4f5c,声波 2 段弧
+ui,media,媒体播放,ui_mute,静音,,mute 静音 关闭声音,喇叭 + 叉,#ff9b8b #e8433f #8e1f24,叉覆盖声波位置
+ui,media,媒体播放,ui_fullscreen,全屏,,fullscreen 全屏 四角,四角括号,#eef2f8 #8d99ad #4a4f5c,四角各 3×3 折线
+ui,social,社交与通知,ui_user,用户,,user 个人 头像,头部圆 + 肩部梯形,#eef2f8 #8d99ad #4a4f5c,头部占 6×6
+ui,social,社交与通知,ui_users,用户组,,users 团队 多人,双人剪影,#eef2f8 #8d99ad #4a4f5c,后层人物压暗
+ui,social,社交与通知,ui_chat,聊天,,chat 消息 气泡,对话气泡 + 小尾巴,#b8d8ff #5a8ae6 #2a4a9c,尾巴在左下
+ui,social,社交与通知,ui_like,点赞,,like 喜欢 爱心,心形,#ff9b8b #e8433f #8e1f24,心形顶部两个凸起成对
+ui,social,社交与通知,ui_share,分享,,share 转发 节点,三个节点 + 连线,#b8d8ff #5a8ae6 #2a4a9c,节点 3×3，连线 1px
+ui,social,社交与通知,ui_notification,通知,,notification 铃铛 提醒,铃铛 + 顶部提环,#ffd77a #f0b23e #a87712,铃舌在底部中央
+ui,settings,设置与工具,ui_settings,设置,,settings 齿轮 偏好,齿轮 + 中心孔,#eef2f8 #8d99ad #4a4f5c,8 齿，中心孔 4×4
+ui,settings,设置与工具,ui_filter,筛选,,filter 漏斗 过滤,漏斗,#eef2f8 #8d99ad #4a4f5c,漏斗下口 2px 宽
+ui,settings,设置与工具,ui_sort,排序,,sort 上下箭头 排列,上下双箭头 + 横线,#eef2f8 #8d99ad #4a4f5c,箭头尖端各 4×4
+ui,settings,设置与工具,ui_calendar,日历,,calendar 日期 日程,方框 + 挂环 + 网格,#eef2f8 #8d99ad #4a4f5c,顶部挂环左右各 1 个
+ui,settings,设置与工具,ui_clock,时钟,,clock 时间 定时,圆 + 指针,#eef2f8 #8d99ad #4a4f5c,指针指向 10:10
+ui,settings,设置与工具,ui_help,帮助,,help 问号 支持,圆形 + 问号,#b8d8ff #5a8ae6 #2a4a9c,问号底部圆点 2×2
+ui,commerce,商业与奖励,ui_cart,购物车,,cart 购物 结算,车篮 + 双轮 + 推杆,#ffd77a #f0b23e #a87712,轮子 2×2，间隔 4px
+ui,commerce,商业与奖励,ui_bag,背包,,bag 库存 道具栏,包体 + 提手,#d0a06a #9a6432 #5c3a18,提手宽 4px
+ui,commerce,商业与奖励,ui_coin,金币,,coin 货币 付费,圆形 + 中心星,#ffd77a #f0b23e #a87712,复用 coin_gold 的圆角阶梯
+ui,commerce,商业与奖励,ui_gift,礼包,,gift 礼物 奖励,礼盒 + 缎带,#ff9b8b #e8433f #8e1f24,缎带十字贯穿盒面
+ui,commerce,商业与奖励,ui_coupon,优惠券,,coupon 折扣 票券,票券 + 锯齿边,#8ef0b6 #4ce88e #1f8a52,左右各 2 个缺口
+ui,file,文件与链接,ui_file,文件,,file 文档 纸张,矩形 + 右上折角,#eef2f8 #8d99ad #4a4f5c,折角占 3×3
+ui,file,文件与链接,ui_folder,文件夹,,folder 目录 归档,文件夹 + 顶部凸舌,#ffd77a #f0b23e #a87712,凸舌偏左 3 格
+ui,file,文件与链接,ui_image,图片,,image 照片 山峰,矩形 + 山峰 + 太阳,#b8d8ff #5a8ae6 #2a4a9c,山峰用 2-3-2 阶梯
+ui,file,文件与链接,ui_link,链接,,link 链条 超链接,两个链环相扣,#eef2f8 #8d99ad #4a4f5c,链环各 5×3，重叠 1 格
+ui,file,文件与链接,ui_trash,删除,,trash 垃圾桶 移除,桶身 + 桶盖 + 竖纹,#ff9b8b #e8433f #8e1f24,桶身竖纹 2 道

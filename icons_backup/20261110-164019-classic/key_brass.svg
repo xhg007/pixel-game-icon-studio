@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="黄铜钥匙" data-rarity="fine">
+  <!-- palette: o=#3a2a10, g=#c98d4b, G=#e8b06a, D=#8f5a2a -->
+  <rect x="3" y="4" width="4" height="1" fill="#3a2a10"/>
+  <rect x="2" y="5" width="1" height="1" fill="#3a2a10"/>
+  <rect x="3" y="5" width="4" height="1" fill="#e8b06a"/>
+  <rect x="7" y="5" width="1" height="1" fill="#3a2a10"/>
+  <rect x="1" y="6" width="1" height="1" fill="#3a2a10"/>
+  <rect x="2" y="6" width="2" height="1" fill="#e8b06a"/>
+  <rect x="7" y="6" width="1" height="1" fill="#e8b06a"/>
+  <rect x="8" y="6" width="1" height="1" fill="#3a2a10"/>
+  <rect x="1" y="7" width="1" height="1" fill="#3a2a10"/>
+  <rect x="2" y="7" width="2" height="1" fill="#e8b06a"/>
+  <rect x="7" y="7" width="1" height="1" fill="#e8b06a"/>
+  <rect x="8" y="7" width="7" height="1" fill="#3a2a10"/>
+  <rect x="1" y="8" width="1" height="1" fill="#3a2a10"/>
+  <rect x="2" y="8" width="2" height="1" fill="#e8b06a"/>
+  <rect x="7" y="8" width="1" height="1" fill="#e8b06a"/>
+  <rect x="8" y="8" width="1" height="1" fill="#3a2a10"/>
+  <rect x="9" y="8" width="6" height="1" fill="#e8b06a"/>
+  <rect x="1" y="9" width="1" height="1" fill="#3a2a10"/>
+  <rect x="2" y="9" width="2" height="1" fill="#e8b06a"/>
+  <rect x="7" y="9" width="1" height="1" fill="#e8b06a"/>
+  <rect x="8" y="9" width="7" height="1" fill="#3a2a10"/>
+  <rect x="2" y="10" width="1" height="1" fill="#3a2a10"/>
+  <rect x="3" y="10" width="4" height="1" fill="#e8b06a"/>
+  <rect x="7" y="10" width="1" height="1" fill="#3a2a10"/>
+  <rect x="11" y="10" width="4" height="1" fill="#c98d4b"/>
+  <rect x="3" y="11" width="4" height="1" fill="#3a2a10"/>
+  <rect x="11" y="11" width="4" height="1" fill="#3a2a10"/>
+</svg>

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "title": "图标画法风格",
+  "description": "按表现手法划分的 10 种主流图标风格，以及本项目 SVG 管线的支持程度。",
+  "styles": [
+    {
+      "key": "pixel",
+      "name": "像素风",
+      "visual": "可见像素网格、有限色板（8~32 色）、硬边缘无抗锯齿",
+      "best_for": "复古 / Roguelike / 独立游戏、背包道具",
+      "examples": "星露谷物语、泰拉瑞亚、以撒",
+      "difficulty": 1,
+      "difficulty_label": "极适合",
+      "supported": "full",
+      "rules": ["16×16 网格，只用 rect", "单图标 ≤ 12 色，全项目共用一套色板", "1px 闭合深色轮廓，左上受光"]
+    },
+    {
+      "key": "flat",
+      "name": "扁平风",
+      "visual": "去掉阴影、高光、渐变与纹理，纯色块几何造型",
+      "best_for": "移动端 UI、休闲游戏、功能入口",
+      "examples": "Alto's Adventure、Mini Metro",
+      "difficulty": 2,
+      "difficulty_label": "适合",
+      "supported": "partial",
+      "rules": ["用 2~3 个纯色块表达结构", "禁止渐变与阴影", "轮廓可省略，靠色块对比区分层次"]
+    },
+    {
+      "key": "line",
+      "name": "线性 / 描边",
+      "visual": "以线条塑轮廓，可纯描边或内填色，线宽决定情绪",
+      "best_for": "APP 界面、控件图标、设置面板",
+      "examples": "各类系统 UI",
+      "difficulty": 2,
+      "difficulty_label": "适合",
+      "supported": "partial",
+      "rules": ["统一 2px 线宽（16px 画布）", "圆角端点，交叉处留 1px 空隙", "只用 1 种线色 + 1 种强调色"]
+    },
+    {
+      "key": "hand-painted",
+      "name": "手绘风",
+      "visual": "笔触感明显、立体光影烘焙进纹理、结构清晰",
+      "best_for": "奇幻 RPG 背包、技能图标",
+      "examples": "魔兽世界、火炬之光",
+      "difficulty": 4,
+      "difficulty_label": "困难",
+      "supported": "future",
+      "rules": ["需要纹理与笔触，当前 rect 管线无法表达", "建议改用位图生成后人工修整"]
+    },
+    {
+      "key": "skeuomorphic",
+      "name": "拟物风",
+      "visual": "模拟真实材质，高光、纹理、阴影多层叠加，细节丰富",
+      "best_for": "硬核 RPG、主题商店",
+      "examples": "巫师 3 昆特牌图标",
+      "difficulty": 4,
+      "difficulty_label": "困难",
+      "supported": "future",
+      "rules": ["需要渐变与材质贴图，当前仅允许纯色 rect", "建议作为远期扩展"]
+    },
+    {
+      "key": "chibi",
+      "name": "Q 版 / Chibi",
+      "visual": "轮廓圆润饱满、细节大而圆、组件厚实可爱",
+      "best_for": "休闲手游、卡牌、宠物系统",
+      "examples": "塞尔达传说 织梦岛（2019）",
+      "difficulty": 3,
+      "difficulty_label": "中等",
+      "supported": "partial",
+      "rules": ["主体占画布 70% 以上", "外轮廓用 2px 圆角阶梯", "高光放大到 30%，暗部收窄"]
+    },
+    {
+      "key": "mbe",
+      "name": "MBE 风",
+      "visual": "Q 版简形 + 错位粗描边 + 细碎装饰点",
+      "best_for": "引导页、活动图标、版本更新",
+      "examples": "Dribbble 设计师 MBE 作品",
+      "difficulty": 3,
+      "difficulty_label": "中等",
+      "supported": "partial",
+      "rules": ["主体向右下偏移 1~2px 的粗描边", "描边与主体之间留 1px 透明缝", "加 2~3 组小圆点装饰"]
+    },
+    {
+      "key": "isometric",
+      "name": "等距 / 2.5D",
+      "visual": "固定斜视角、微缩立体感",
+      "best_for": "策略建造类、地图资源",
+      "examples": "Hades、纪念碑谷",
+      "difficulty": 4,
+      "difficulty_label": "困难",
+      "supported": "future",
+      "rules": ["需要 2:1 等距网格与三面受光", "当前 16×16 画布空间不足，建议 32×32"]
+    },
+    {
+      "key": "cel-shaded",
+      "name": "卡通渲染",
+      "visual": "硬边阴影 + 黑描边，2D 卡通质感",
+      "best_for": "全年龄冒险、动漫 IP 改编",
+      "examples": "塞尔达传说 风之杖、无主之地",
+      "difficulty": 4,
+      "difficulty_label": "困难",
+      "supported": "future",
+      "rules": ["需要两级硬阴影与统一黑描边", "建议先用像素风模拟，再后期重绘"]
+    },
+    {
+      "key": "dark-gothic",
+      "name": "暗黑哥特 / 主题风格",
+      "visual": "浓郁暗色调 + 主题符号（哥特 / 蒸汽朋克 / 水墨仙侠 / 克苏鲁）",
+      "best_for": "题材强绑定的硬核游戏",
+      "examples": "艾尔登法环、黑神话：悟空",
+      "difficulty": 3,
+      "difficulty_label": "中等",
+      "supported": "partial",
+      "rules": ["主色明度压到 30% 以下，保留 1 个高饱和强调色", "用符号（尖刺、锁链、符文）表达题材", "轮廓融入暗部，但剪影边界保持 1px 可辨"]
+    }
+  ]
+}

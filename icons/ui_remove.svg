@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" data-name="移除" data-rarity="common">
+  <!-- palette: n=#cfd3d8 r=#c93a4a -->
+  <rect x="2" y="7" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="7" width="2" height="1" fill="#cfd3d8"/>
+  <rect x="9" y="7" width="5" height="1" fill="#c93a4a"/>
+  <rect x="2" y="8" width="5" height="1" fill="#c93a4a"/>
+  <rect x="7" y="8" width="2" height="1" fill="#cfd3d8"/>
+  <rect x="9" y="8" width="5" height="1" fill="#c93a4a"/>
+</svg>
